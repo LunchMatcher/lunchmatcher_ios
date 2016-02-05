@@ -1,0 +1,67 @@
+<ion-header-bar align-title="left" class="bar-positive cus_header">
+  <div class="buttons">
+    <button class="button button-icon button-clear ion-ios7-arrow-back" ng-click="goBack()" menu-toggle="left"></button>
+  </div>
+  <h1 class="title">Matching Venues</h1>
+  <div class="buttons">
+  </div>
+</ion-header-bar>
+<ion-content>
+  <div class="list cusmize_list">
+	<div class="col padg_0 height_50">
+    	<img ng-src="{{venue.image?venue.image: imageNotAvail}}" style="width:100%; display:block;">
+    </div>
+    <div class="col cust_detail height_50">
+    	<h3>{{venue.name}}</h3>
+        <h4 class="item-text-wrap">{{venue.address}}</h4>
+        <h4 >PHONE : <a href="javascript:void(0);" class="white" x-apple-data-detectors="false" >{{ venue.phone_number ? venue.phone_number : 'Not Available'}}</a><br></h4>
+        <h3>
+        	<i class="ion-ios-star {{i <= venues.venue.details.rating && 'color_orange' || 'color_gray'}}"  data-ng-repeat="i in [1,2,3,4,5]"></i>
+        </h3>        
+        <div class="row">
+        <div class="col text_center">
+        <button class="button border_btn" ng-click="venues.toggleVenue(venue)">
+          {{ venue.selected == 'true' ? 'UNSELECT' : 'SELECT VENUE' }}
+        </button>
+        </div>
+        
+        <div class="col text_center">
+        <button class="button border_btn" ng-click="venues.toggleFav(venue)">
+          {{ venue.favourite == true ? 'REMOVE FAVOURITE' : 'ADD FAVOURITE' }}
+        </button>
+        </div>
+    </div>
+    </div>
+    
+ <!--   
+    <div class="card detl_lst">
+      <div class="item item-divider">
+        <h2>Known For</h2>
+      </div>
+      <div class="item item-text-wrap">
+        American classics and baked goods made with high quality ingredients,  and their sumptuous breakfast options
+      </div>
+    </div>
+    
+    <div class="card detl_lst">
+      <div class="item item-divider">
+        <h2>Collections</h2>
+      </div>
+      <div class="item item-text-wrap">
+        Featured in Great Breakfasts, Great Coffee, Frozen Delights, Hot Chocolate Spots, Cakes & Bakes and Going Solo Collections
+      </div>
+    </div>
+    
+    <div class="card detl_lst mg_btm">
+      <div class="item item-divider">
+        <h2>Cuisines</h2>
+      </div>
+      <div class="item item-text-wrap color_orange">
+        <span>American, Bakery, Desserts, Cafe</span>
+      </div>
+    </div>-->
+    
+    
+  </div>
+</ion-content>
+

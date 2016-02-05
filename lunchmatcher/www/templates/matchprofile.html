@@ -1,0 +1,80 @@
+<ion-header-bar align-title="left" class="bar-positive cus_header">
+  <div class="buttons" ng-if="matchedUser.my_status == 'N'">
+    <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+  </div>
+  <h1 class="title" style="left:45px;">Matching PROFILE</h1>
+  <div class="buttons">
+  </div>
+</ion-header-bar>
+<ion-content class="cust_innr">
+<span ng-class="{'disp_none' : !responseReceived}">
+	<div class="content padding cutom_profile" ng-if="showwaitingForResponse">
+      <p class="no_matches" style="font-size:16px;margin-top: 0px;"> You have successfully accepted your match , we are waiting for a response from your match ! </p>      
+    </div>
+    <div class="content padding cutom_profile" ng-if="matchRejected">
+      <p class="no_matches" style="font-size:16px;margin-top: 0px;"> You have successfully rejected your match , please wait for your next notification  !  </p>      
+    </div>
+    <div class="content padding cutom_profile" ng-if="otherUserRejected">
+      <p class="no_matches" style="font-size:16px;margin-top: 0px;"> Sorry, the user you have matched with did not accept the match within the allotted time. You will receive another match now if available !  </p>      
+    </div>
+    <div class="content padding cutom_profile">
+
+      <div class=" profile_custom">
+        <div class="pr_img"><img ng-src="{{matchedUser.picture_url != null ? matchedUser.picture_url : imageNotAvail}}"></div>
+      </div>
+      <h3 ng-bind-html="matchedUser.formatted_name"></h3>
+      <h5 ng-bind-html="matchedUser.headline"></h5>
+      <h6 ng-bind-html="matchedUser.company"></h6>
+      <h6 ng-if="matchAccepted" ><i class="ion-ios-telephone-outline"></i> Phone <span ng-click="dialPhone(matchedUser.contact_number)">{{matchedUser.contact_number}}</span></h6>
+      <h6 ng-if="matchAccepted" >Venue : {{matchVenueName}}</h6>
+    </div>
+    <div class="clearfix"></div>
+    <div class="col prf_row">
+    	<h4 ng-if="matchedUser.matcher_status != 'N'">Time  :  <span>{{matchedUser.match_time_from}}</span>  to   <span>{{matchedUser.match_time_to}}</span></h4>
+        <span style="position: absolute; left: 50%;">
+        <div class="circle_count" ng-if="matchedUser.remaining_time">
+        <div class="circle_countadj">{{matchedUser.remaining_time?matchedUser.remaining_time:''}}</div>
+        <a ng-if="matchedUser.remaining_time" class="mintext">min</a> </div>
+        <!--<div class="circle_count cus_spn" ng-if="matchAccepted || matchExpired || otherUserRejected || matchRejected">Score <br><span>{{matchedUser.score}}</span></div>-->
+        </span>
+    </div>
+    <div class="row accept_bar" ng-if="matchedUser.my_status == '' && matchedUser.remaining_time > 0">
+        <div class="col butn_cust">
+            ACCEPT<br>
+            <button class="button cus_accept icon ion-checkmark" ng-click="matchAcceptedFn()"></button>
+        </div>
+        <div class="col butn_cust">
+            REJECT<br>
+            <button class="button cus_reject icon ion-close" ng-click="matchRejectedFn()"></button>
+        </div>	
+    </div>
+    <div class="row accept_bar" ng-if="matchedUser.my_status == 'N' && matchedUser.remaining_time > 0">
+        <span class="expired">
+    		You have rejected the match and waiting for next notification.
+     	</span> 
+    </div>
+    <div class="row accept_bar" ng-if="matchedUser.my_status == 'Y' && matchedUser.remaining_time > 0">
+        <span class="expired">
+    		You have accepted the match and waiting for Matcher response.!
+     	</span> 
+    </div>
+  
+    <!--<div class="row accept_bar" ng-if="matchedUser.matcher_status == 'N'">
+        <span class="expired">
+    		The matcher has rejected you. You will get another notification soon.!
+     	</span> 
+    </div>-->
+    <div class="row accept_bar" ng-if="matchedUser.my_status == 'Y' && matchedUser.matcher_status == 'Y' ">
+        <span class="expired">
+    		Congrats, You will get a confirmation notification soon.!
+     	</span> 
+    </div>
+    <div class="row accept_bar expired" ng-if="matchedUser.remaining_time == 0">
+    	<span class="expired">
+    		Sorry ! Your match has been expired.!
+     	</span>   
+    </div>
+   
+</span>    
+</ion-content>
+

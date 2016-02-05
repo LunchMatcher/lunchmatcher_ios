@@ -1,0 +1,26 @@
+<ion-header-bar align-title="left" class="bar-positive cus_header">
+  <div class="buttons" ng-if="review.feed_id">
+    <button class="button button-icon button-clear ion-navicon" ng-click="doSomething()" menu-toggle="left"></button>
+  </div>
+  <div class="buttons" ng-if="!noReview">
+    <button class="button button-icon button-clear ion-navicon" ng-click="doSomething()" menu-toggle="left"></button>
+  </div>
+  <h1 class="title" style="left:45px;">Share/Feedback</h1>
+  <div class="buttons">
+  </div>
+</ion-header-bar>
+<ion-content class="rate_wp">	        
+        <div class="col">
+            <h2>WRITE YOUR FEEDBACK HERE</h2><div class="clearfix"></div> 
+          <div class="comments row">
+           <textarea  class="feed_textarea" name="feedback" placeholder="Feedback" rows="4" ng-model="feed.feed_textarea" ></textarea>
+            
+          </div>
+        </div>
+  		<div class="rate_section row rate_wp" >
+        <button  class="button col-75 col-offset-10 green_btn button-positive" ng-click="sendFeedback()">
+          Submit
+        </button>
+        </div>
+</ion-content>
+

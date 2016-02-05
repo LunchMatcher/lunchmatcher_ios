@@ -1,0 +1,975 @@
+2015-10-26 14:50:12.013 LunchMatcher[1861:29880] Apache Cordova native platform version 3.8.0 is starting.
+2015-10-26 14:50:12.034 LunchMatcher[1861:29880] Multi-tasking -> Device: YES, App: YES
+2015-10-26 14:50:12.075 LunchMatcher[1861:29880] Unlimited access to network resources
+2015-10-26 14:50:12.696 LunchMatcher[1861:29880] [CDVTimer][keyboard] 0.278950ms
+2015-10-26 14:50:12.767 LunchMatcher[1861:29880] [CDVTimer][socialsharing] 70.731044ms
+2015-10-26 14:50:12.767 LunchMatcher[1861:29880] [CDVTimer][TotalPluginStartup] 71.343005ms
+2015-10-26 14:50:12.804 LunchMatcher[1861:29880] active
+2015-10-26 14:50:13.159 LunchMatcher[1861:29880] Resetting plugins due to page load.
+2015-10-26 14:50:17.231 LunchMatcher[1861:29880] WARN: $ionicViewService is deprecated, please use $ionicHistory instead: http://ionicframework.com/docs/nightly/api/service/$ionicHistory/
+2015-10-26 14:50:17.231 LunchMatcher[1861:29880] WARN: $ionicViewService.nextViewOptions is deprecated, please use $ionicHistory.nextViewOptions instead: http://ionicframework.com/docs/nightly/api/service/$ionicHistory/
+2015-10-26 14:50:17.688 LunchMatcher[1861:29880] WARN: $ionicViewService.nextViewOptions is deprecated, please use $ionicHistory.nextViewOptions instead: http://ionicframework.com/docs/nightly/api/service/$ionicHistory/
+2015-10-26 14:50:17.688 LunchMatcher[1861:29880] ERROR: Error: JSON Parse error: Unexpected identifier "undefined"
+parse@[native code]
+file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/2BB46890-4B0F-4669-A6D9-D9087C7030CF/LunchMatcher.app/www/js/controllers/Login.js:89:37
+$broadcast@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/2BB46890-4B0F-4669-A6D9-D9087C7030CF/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:22496:33
+file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/2BB46890-4B0F-4669-A6D9-D9087C7030CF/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:39883:32
+processQueue@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/2BB46890-4B0F-4669-A6D9-D9087C7030CF/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:20962:29
+file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/2BB46890-4B0F-4669-A6D9-D9087C7030CF/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:20978:39
+$eval@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/2BB46890-4B0F-4669-A6D9-D9087C7030CF/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:22178:28
+$digest@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/2BB46890-4B0F-4669-A6D9-D9087C7030CF/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:21994:36
+$apply@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/2BB46890-4B0F-4669-A6D9-D9087C7030CF/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:22282:31
+done@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/2BB46890-4B0F-4669-A6D9-D9087C7030CF/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:17439:53
+completeRequest@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/2BB46890-4B0F-4669-A6D9-D9087C7030CF/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:17629:15
+requestLoaded@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/2BB46890-4B0F-4669-A6D9-D9087C7030CF/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:17570:24
+2015-10-26 14:50:28.469 LunchMatcher[1861:29880] Setting the WebView's frame to {{0, 0}, {375, 623}}
+2015-10-26 14:50:28.472 LunchMatcher[1861:29880] THREAD WARNING: ['InAppBrowser'] took '118.224121' ms. Plugin should use a background thread.
+2015-10-26 14:50:32.813 LunchMatcher[1861:29880] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/2BB46890-4B0F-4669-A6D9-D9087C7030CF/LunchMatcher.app/www/index.html#/login
+2015-10-26 14:50:32.814 LunchMatcher[1861:29880] Gave lock 2
+2015-10-26 14:52:09.329 LunchMatcher[1861:29880] ERROR: Error: JSON Parse error: Unexpected identifier "undefined"
+parse@[native code]
+file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/2BB46890-4B0F-4669-A6D9-D9087C7030CF/LunchMatcher.app/www/js/controllers/Availability.js:90:30
+file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/2BB46890-4B0F-4669-A6D9-D9087C7030CF/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:17151:13
+processQueue@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/2BB46890-4B0F-4669-A6D9-D9087C7030CF/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:20962:29
+file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/2BB46890-4B0F-4669-A6D9-D9087C7030CF/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:20978:39
+$eval@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/2BB46890-4B0F-4669-A6D9-D9087C7030CF/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:22178:28
+$digest@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/2BB46890-4B0F-4669-A6D9-D9087C7030CF/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:21994:36
+$apply@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/2BB46890-4B0F-4669-A6D9-D9087C7030CF/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:22282:31
+done@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/2BB46890-4B0F-4669-A6D9-D9087C7030CF/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:17439:53
+completeRequest@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/2BB46890-4B0F-4669-A6D9-D9087C7030CF/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:17629:15
+requestLoaded@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/2BB46890-4B0F-4669-A6D9-D9087C7030CF/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:17570:24
+2015-10-26 14:52:21.605 LunchMatcher[1861:29880] active
+2015-10-26 14:52:22.115 LunchMatcher[1861:29880] locationManager::didFailWithError (null)
+2015-10-26 14:52:25.799 LunchMatcher[1861:29880] THREAD WARNING: ['Geolocation'] took '23.867188' ms. Plugin should use a background thread.
+2015-10-26 14:52:33.590 LunchMatcher[1861:29880] THREAD WARNING: ['Geolocation'] took '26.081055' ms. Plugin should use a background thread.
+2015-10-26 14:54:43.753 LunchMatcher[1861:32120] Terminating since there is no system app.
+2015-10-26 15:27:49.806 LunchMatcher[4225:45327] Apache Cordova native platform version 3.8.0 is starting.
+2015-10-26 15:27:49.816 LunchMatcher[4225:45327] Multi-tasking -> Device: YES, App: YES
+2015-10-26 15:27:49.823 LunchMatcher[4225:45327] Unlimited access to network resources
+2015-10-26 15:27:49.995 LunchMatcher[4225:45327] [CDVTimer][keyboard] 0.064015ms
+2015-10-26 15:27:50.036 LunchMatcher[4225:45327] [CDVTimer][socialsharing] 40.605009ms
+2015-10-26 15:27:50.036 LunchMatcher[4225:45327] [CDVTimer][TotalPluginStartup] 41.015983ms
+2015-10-26 15:27:50.051 LunchMatcher[4225:45327] active
+2015-10-26 15:27:50.169 LunchMatcher[4225:45327] Resetting plugins due to page load.
+2015-10-26 15:28:18.522 LunchMatcher[4225:45397] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-10-26 15:28:18.924 LunchMatcher[4225:45387] CFNetwork SSLHandshake failed (-9806)
+2015-10-26 15:37:06.021 LunchMatcher[5082:49246] Apache Cordova native platform version 3.8.0 is starting.
+2015-10-26 15:37:06.032 LunchMatcher[5082:49246] Multi-tasking -> Device: YES, App: YES
+2015-10-26 15:37:06.047 LunchMatcher[5082:49246] Unlimited access to network resources
+2015-10-26 15:37:06.178 LunchMatcher[5082:49246] [CDVTimer][keyboard] 0.106037ms
+2015-10-26 15:37:06.248 LunchMatcher[5082:49246] [CDVTimer][socialsharing] 68.922997ms
+2015-10-26 15:37:06.248 LunchMatcher[5082:49246] [CDVTimer][TotalPluginStartup] 69.482028ms
+2015-10-26 15:37:06.256 LunchMatcher[5082:49246] active
+2015-10-26 15:37:06.342 LunchMatcher[5082:49246] Resetting plugins due to page load.
+2015-10-26 15:37:32.101 LunchMatcher[5082:49280] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-10-26 15:37:32.382 LunchMatcher[5082:49274] CFNetwork SSLHandshake failed (-9806)
+2015-10-26 15:37:32.762 LunchMatcher[5082:49246] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/27E57596-9531-45B9-8898-B18FD21F43B6/LunchMatcher.app/www/index.html#/home
+2015-10-26 15:37:32.797 LunchMatcher[5082:49246] THREAD WARNING: ['PushPlugin'] took '27.828369' ms. Plugin should use a background thread.
+2015-10-26 15:37:58.140 LunchMatcher[5082:49280] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-10-26 15:37:58.534 LunchMatcher[5082:49246] THREAD WARNING: ['Keyboard'] took '13.264160' ms. Plugin should use a background thread.
+2015-10-26 15:38:29.780 LunchMatcher[5082:49246] THREAD WARNING: ['Toast'] took '20.093994' ms. Plugin should use a background thread.
+2015-10-26 15:38:29.946 LunchMatcher[5082:49246] Setting the WebView's frame to {{0, 0}, {375, 623}}
+2015-10-26 15:38:29.952 LunchMatcher[5082:49246] THREAD WARNING: ['InAppBrowser'] took '171.351318' ms. Plugin should use a background thread.
+2015-11-11 15:03:46.020 LunchMatcher[2860:26951] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 15:03:46.039 LunchMatcher[2860:26951] Multi-tasking -> Device: YES, App: YES
+2015-11-11 15:03:46.082 LunchMatcher[2860:26951] Unlimited access to network resources
+2015-11-11 15:03:46.718 LunchMatcher[2860:26951] [CDVTimer][keyboard] 0.272989ms
+2015-11-11 15:03:46.809 LunchMatcher[2860:26951] [CDVTimer][socialsharing] 91.584027ms
+2015-11-11 15:03:46.810 LunchMatcher[2860:26951] [CDVTimer][TotalPluginStartup] 92.188954ms
+2015-11-11 15:03:46.866 LunchMatcher[2860:26951] active
+2015-11-11 15:03:47.143 LunchMatcher[2860:26951] Resetting plugins due to page load.
+2015-11-11 15:03:49.848 LunchMatcher[2860:26951] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/52247AA6-4CFF-4521-939B-3F418A246BE0/LunchMatcher.app/www/index.html#/home
+2015-11-11 15:06:57.096 LunchMatcher[2860:27044] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-11-11 15:06:59.156 LunchMatcher[2860:26951] Setting the WebView's frame to {{0, 0}, {375, 623}}
+2015-11-11 15:06:59.159 LunchMatcher[2860:26951] THREAD WARNING: ['InAppBrowser'] took '127.074219' ms. Plugin should use a background thread.
+2015-11-11 15:10:44.348 LunchMatcher[3144:29069] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 15:10:44.349 LunchMatcher[3144:29069] Multi-tasking -> Device: YES, App: YES
+2015-11-11 15:10:44.351 LunchMatcher[3144:29069] Unlimited access to network resources
+2015-11-11 15:10:44.456 LunchMatcher[3144:29069] [CDVTimer][keyboard] 0.092983ms
+2015-11-11 15:10:44.508 LunchMatcher[3144:29069] [CDVTimer][socialsharing] 52.253962ms
+2015-11-11 15:10:44.509 LunchMatcher[3144:29069] [CDVTimer][TotalPluginStartup] 52.815020ms
+2015-11-11 15:10:44.574 LunchMatcher[3144:29069] active
+2015-11-11 15:10:44.619 LunchMatcher[3144:29069] Resetting plugins due to page load.
+2015-11-11 15:10:45.169 LunchMatcher[3144:29069] WARN: $ionicViewService is deprecated, please use $ionicHistory instead: http://ionicframework.com/docs/nightly/api/service/$ionicHistory/
+2015-11-11 15:10:45.169 LunchMatcher[3144:29069] WARN: $ionicViewService.nextViewOptions is deprecated, please use $ionicHistory.nextViewOptions instead: http://ionicframework.com/docs/nightly/api/service/$ionicHistory/
+2015-11-11 15:10:45.808 LunchMatcher[3144:29069] WARN: $ionicViewService.nextViewOptions is deprecated, please use $ionicHistory.nextViewOptions instead: http://ionicframework.com/docs/nightly/api/service/$ionicHistory/
+2015-11-11 15:10:45.808 LunchMatcher[3144:29069] ERROR: Error: JSON Parse error: Unexpected identifier "undefined"
+parse@[native code]
+file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/B33858E9-D21E-4028-A9D4-A6EC60CF8AB3/LunchMatcher.app/www/js/controllers/Login.js:90:37
+$broadcast@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/B33858E9-D21E-4028-A9D4-A6EC60CF8AB3/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:22496:33
+file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/B33858E9-D21E-4028-A9D4-A6EC60CF8AB3/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:39883:32
+processQueue@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/B33858E9-D21E-4028-A9D4-A6EC60CF8AB3/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:20962:29
+file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/B33858E9-D21E-4028-A9D4-A6EC60CF8AB3/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:20978:39
+$eval@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/B33858E9-D21E-4028-A9D4-A6EC60CF8AB3/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:22178:28
+$digest@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/B33858E9-D21E-4028-A9D4-A6EC60CF8AB3/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:21994:36
+$apply@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/B33858E9-D21E-4028-A9D4-A6EC60CF8AB3/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:22282:31
+done@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/B33858E9-D21E-4028-A9D4-A6EC60CF8AB3/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:17439:53
+completeRequest@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/B33858E9-D21E-4028-A9D4-A6EC60CF8AB3/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:17629:15
+requestLoaded@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/B33858E9-D21E-4028-A9D4-A6EC60CF8AB3/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:17570:24
+2015-11-11 15:10:46.292 LunchMatcher[3144:29069] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/B33858E9-D21E-4028-A9D4-A6EC60CF8AB3/LunchMatcher.app/www/index.html#/login
+2015-11-11 15:10:48.681 LunchMatcher[3144:29069] Setting the WebView's frame to {{0, 0}, {375, 623}}
+2015-11-11 15:10:48.684 LunchMatcher[3144:29069] THREAD WARNING: ['InAppBrowser'] took '59.314941' ms. Plugin should use a background thread.
+2015-11-11 15:11:24.134 LunchMatcher[3144:29069] {"firstName":"asker","formattedName":"asker ali","headline":"Team Leader (Web development) at NewageSys solutions Plts","id":"po67M2iX8f","industry":"Information Technology and Services","lastName":"ali","pictureUrl":"https://media.licdn.com/mpr/mprx/0_3rnHNj1a855qps2l3-lUNYt-CirZy0pliACBNxi-g6XW_UIAS9QXV0BpuSKQ04jgh1N9U4AnTB_a","pictureUrls":{"_total":1,"values":["https://media.licdn.com/mpr/mprx/0_1SL80bpoU9vKH6bmzuvm06y6y6wKSqwmqDUDJ6SXttoPdzJhngkuU2tdJB2"]},"positions":{"_total":1,"values":[{"company":{"id":147091,"industry":"Pharmaceuticals","name":"NewAgeSys, Inc","size":"201-500 employees","ticker":"","type":"Privately Held"},"id":589051880,"isCurrent":true,"startDate":{"month":6,"year":2011},"summary":"•\tAnalysis & Feasibility study of requirements.\n•\tDesign, & Preparation of Change Specification for requirement.\n•\tPerform business requirements analysis, planning and object model designs.\n•\tImplementation & Unit testing and Integration of  developed codes","title":"Senior Developer with  Team Lead"}]},"siteStandardProfileRequest":{"url":"https://www.linkedin.com/profile/view?id=AAoAABZKTh8BDC7FPsEM4KgbwbbGQ1oIV8U0jMs&authType=name&authToken=zMqk&trk=api*a4272041*s4333271*"},"profile_url":"https://www.linkedin.com/profile/view?id=AAoAABZKTh8BDC7FPsEM4KgbwbbGQ1oIV8U0jMs&authType=name&authToken=zMqk&trk=api*a4272041*s4333271*","accesToken":"AQV6TJ_-EsBORUHWOVgy-B_nOw6hJuV3sLEmzV3iNOBaQByWBwWgryUO-T-sn04zFlBUn2tjgh8McsDiA-_tXXbMbhWZRq3uKqkFXhIL8TdnEVqlWMvx6DWSb-fUxtWSnOlqNb-ExOgF8U0hOV2N2AXoQ_VnTaQW0Gx1KvfhvGFWPqnpb48","deviceToken":null,"devicePlatform":null,"deviceId":"2475BCA5-A7F5-4601-AE93-C14D1B7B1592"}
+2015-11-11 15:14:15.500 LunchMatcher[3144:29069] Setting the WebView's frame to {{0, 0}, {375, 623}}
+2015-11-11 15:14:15.503 LunchMatcher[3144:29069] THREAD WARNING: ['InAppBrowser'] took '52.860107' ms. Plugin should use a background thread.
+2015-11-11 15:14:48.639 LunchMatcher[3144:29069] {"firstName":"asker","formattedName":"asker ali","headline":"Team Leader (Web development) at NewageSys solutions Plts","id":"po67M2iX8f","industry":"Information Technology and Services","lastName":"ali","pictureUrl":"https://media.licdn.com/mpr/mprx/0_3rnHNj1a855qps2l3-lUNYt-CirZy0pliACBNxi-g6XW_UIAS9QXV0BpuSKQ04jgh1N9U4AnTB_a","pictureUrls":{"_total":1,"values":["https://media.licdn.com/mpr/mprx/0_1SL80bpoU9vKH6bmzuvm06y6y6wKSqwmqDUDJ6SXttoPdzJhngkuU2tdJB2"]},"positions":{"_total":1,"values":[{"company":{"id":147091,"industry":"Pharmaceuticals","name":"NewAgeSys, Inc","size":"201-500 employees","ticker":"","type":"Privately Held"},"id":589051880,"isCurrent":true,"startDate":{"month":6,"year":2011},"summary":"•\tAnalysis & Feasibility study of requirements.\n•\tDesign, & Preparation of Change Specification for requirement.\n•\tPerform business requirements analysis, planning and object model designs.\n•\tImplementation & Unit testing and Integration of  developed codes","title":"Senior Developer with  Team Lead"}]},"siteStandardProfileRequest":{"url":"https://www.linkedin.com/profile/view?id=AAoAABZKTh8BDC7FPsEM4KgbwbbGQ1oIV8U0jMs&authType=name&authToken=zMqk&trk=api*a4272041*s4333271*"},"profile_url":"https://www.linkedin.com/profile/view?id=AAoAABZKTh8BDC7FPsEM4KgbwbbGQ1oIV8U0jMs&authType=name&authToken=zMqk&trk=api*a4272041*s4333271*","accesToken":"AQXYotVbFNp36jO6KWzxeKiBBtpXvr4WpkLm732PbXZSl5Nw9AisSETQba9ozSLwj3GozmGnHlj1NkrBuc_RDg7loznsorX1ZAcdd4tTApshTScMZeIDFRpk7PSOpp2f1foR72yqtgiFlVSM7imNWukHhKga7cObvYZVBlfGyPHv_PIR_RU","deviceToken":null,"devicePlatform":null,"deviceId":"2475BCA5-A7F5-4601-AE93-C14D1B7B1592"}
+2015-11-11 15:14:50.584 LunchMatcher[3144:29069] WARN: $ionicViewService.nextViewOptions is deprecated, please use $ionicHistory.nextViewOptions instead: http://ionicframework.com/docs/nightly/api/service/$ionicHistory/
+2015-11-11 15:14:50.584 LunchMatcher[3144:29069] ERROR: http://errors.angularjs.org/1.3.6/$parse/syntax?p0=required&p1=is<!-- ngIf: $scope.field_required required -->0an%20unexpected%20token&p2=23&p3=%24scope.field_required%20required&p4=required
+2015-11-11 15:16:10.544 LunchMatcher[3393:30793] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 15:16:10.545 LunchMatcher[3393:30793] Multi-tasking -> Device: YES, App: YES
+2015-11-11 15:16:10.547 LunchMatcher[3393:30793] Unlimited access to network resources
+2015-11-11 15:16:10.655 LunchMatcher[3393:30793] [CDVTimer][keyboard] 0.093997ms
+2015-11-11 15:16:10.706 LunchMatcher[3393:30793] [CDVTimer][socialsharing] 50.720990ms
+2015-11-11 15:16:10.706 LunchMatcher[3393:30793] [CDVTimer][TotalPluginStartup] 51.220000ms
+2015-11-11 15:16:10.763 LunchMatcher[3393:30793] active
+2015-11-11 15:16:10.805 LunchMatcher[3393:30793] Resetting plugins due to page load.
+2015-11-11 15:16:13.045 LunchMatcher[3393:30793] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/A046D4FA-E823-4FB4-93D2-F1D96097653E/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 15:18:57.583 LunchMatcher[3645:31952] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 15:18:57.584 LunchMatcher[3645:31952] Multi-tasking -> Device: YES, App: YES
+2015-11-11 15:18:57.586 LunchMatcher[3645:31952] Unlimited access to network resources
+2015-11-11 15:18:57.690 LunchMatcher[3645:31952] [CDVTimer][keyboard] 0.063002ms
+2015-11-11 15:18:57.744 LunchMatcher[3645:31952] [CDVTimer][socialsharing] 54.240942ms
+2015-11-11 15:18:57.745 LunchMatcher[3645:31952] [CDVTimer][TotalPluginStartup] 54.759979ms
+2015-11-11 15:18:57.812 LunchMatcher[3645:31952] active
+2015-11-11 15:18:57.857 LunchMatcher[3645:31952] Resetting plugins due to page load.
+2015-11-11 15:18:58.467 LunchMatcher[3645:31952] WARN: $ionicViewService is deprecated, please use $ionicHistory instead: http://ionicframework.com/docs/nightly/api/service/$ionicHistory/
+2015-11-11 15:18:58.468 LunchMatcher[3645:31952] WARN: $ionicViewService.nextViewOptions is deprecated, please use $ionicHistory.nextViewOptions instead: http://ionicframework.com/docs/nightly/api/service/$ionicHistory/
+2015-11-11 15:18:59.414 LunchMatcher[3645:31952] WARN: $ionicViewService.nextViewOptions is deprecated, please use $ionicHistory.nextViewOptions instead: http://ionicframework.com/docs/nightly/api/service/$ionicHistory/
+2015-11-11 15:18:59.414 LunchMatcher[3645:31952] ERROR: http://errors.angularjs.org/1.3.6/$parse/syntax?p0=required&p1=is<!-- ngIf: $scope.field_required required -->0an%20unexpected%20token&p2=23&p3=%24scope.field_required%20required&p4=required
+2015-11-11 15:18:59.918 LunchMatcher[3645:31952] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/206C7D17-2EC9-4B38-A2E6-BB9C8171A8A2/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 15:24:15.974 LunchMatcher[3904:33861] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 15:24:15.975 LunchMatcher[3904:33861] Multi-tasking -> Device: YES, App: YES
+2015-11-11 15:24:15.984 LunchMatcher[3904:33861] Unlimited access to network resources
+2015-11-11 15:24:16.096 LunchMatcher[3904:33861] [CDVTimer][keyboard] 0.092030ms
+2015-11-11 15:24:16.149 LunchMatcher[3904:33861] [CDVTimer][socialsharing] 53.009987ms
+2015-11-11 15:24:16.150 LunchMatcher[3904:33861] [CDVTimer][TotalPluginStartup] 53.588033ms
+2015-11-11 15:24:16.266 LunchMatcher[3904:33861] active
+2015-11-11 15:24:16.308 LunchMatcher[3904:33861] Resetting plugins due to page load.
+2015-11-11 15:24:16.959 LunchMatcher[3904:33861] WARN: $ionicViewService is deprecated, please use $ionicHistory instead: http://ionicframework.com/docs/nightly/api/service/$ionicHistory/
+2015-11-11 15:24:16.959 LunchMatcher[3904:33861] WARN: $ionicViewService.nextViewOptions is deprecated, please use $ionicHistory.nextViewOptions instead: http://ionicframework.com/docs/nightly/api/service/$ionicHistory/
+2015-11-11 15:24:17.777 LunchMatcher[3904:33861] WARN: $ionicViewService.nextViewOptions is deprecated, please use $ionicHistory.nextViewOptions instead: http://ionicframework.com/docs/nightly/api/service/$ionicHistory/
+2015-11-11 15:24:17.777 LunchMatcher[3904:33861] ERROR: http://errors.angularjs.org/1.3.6/$parse/syntax?p0=required&p1=is<!-- ngIf: $scope.field_required required -->0an%20unexpected%20token&p2=23&p3=%24scope.field_required%20required&p4=required
+2015-11-11 15:24:18.643 LunchMatcher[3904:33861] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/F648A92C-7A47-4800-8509-6086DD28EFDF/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 15:24:58.810 LunchMatcher[4154:34693] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 15:24:58.811 LunchMatcher[4154:34693] Multi-tasking -> Device: YES, App: YES
+2015-11-11 15:24:58.824 LunchMatcher[4154:34693] Unlimited access to network resources
+2015-11-11 15:24:58.933 LunchMatcher[4154:34693] [CDVTimer][keyboard] 0.100017ms
+2015-11-11 15:24:58.987 LunchMatcher[4154:34693] [CDVTimer][socialsharing] 53.380013ms
+2015-11-11 15:24:58.987 LunchMatcher[4154:34693] [CDVTimer][TotalPluginStartup] 54.067016ms
+2015-11-11 15:24:59.028 LunchMatcher[4154:34693] active
+2015-11-11 15:24:59.075 LunchMatcher[4154:34693] Resetting plugins due to page load.
+2015-11-11 15:25:00.087 LunchMatcher[4154:34693] WARN: $ionicViewService is deprecated, please use $ionicHistory instead: http://ionicframework.com/docs/nightly/api/service/$ionicHistory/
+2015-11-11 15:25:00.088 LunchMatcher[4154:34693] WARN: $ionicViewService.nextViewOptions is deprecated, please use $ionicHistory.nextViewOptions instead: http://ionicframework.com/docs/nightly/api/service/$ionicHistory/
+2015-11-11 15:25:01.419 LunchMatcher[4154:34693] WARN: $ionicViewService.nextViewOptions is deprecated, please use $ionicHistory.nextViewOptions instead: http://ionicframework.com/docs/nightly/api/service/$ionicHistory/
+2015-11-11 15:25:01.419 LunchMatcher[4154:34693] ERROR: http://errors.angularjs.org/1.3.6/$parse/syntax?p0=required&p1=is<!-- ngIf: $scope.field_required required -->0an%20unexpected%20token&p2=23&p3=%24scope.field_required%20required&p4=required
+2015-11-11 15:25:02.015 LunchMatcher[4154:34693] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/D766BA3C-ABDC-4E5F-B858-28D8C1328BDE/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 15:25:56.959 LunchMatcher[4404:35557] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 15:25:56.960 LunchMatcher[4404:35557] Multi-tasking -> Device: YES, App: YES
+2015-11-11 15:25:56.969 LunchMatcher[4404:35557] Unlimited access to network resources
+2015-11-11 15:25:57.073 LunchMatcher[4404:35557] [CDVTimer][keyboard] 0.066996ms
+2015-11-11 15:25:57.126 LunchMatcher[4404:35557] [CDVTimer][socialsharing] 53.269982ms
+2015-11-11 15:25:57.127 LunchMatcher[4404:35557] [CDVTimer][TotalPluginStartup] 53.752005ms
+2015-11-11 15:25:57.226 LunchMatcher[4404:35557] active
+2015-11-11 15:25:57.266 LunchMatcher[4404:35557] Resetting plugins due to page load.
+2015-11-11 15:25:58.157 LunchMatcher[4404:35557] WARN: $ionicViewService is deprecated, please use $ionicHistory instead: http://ionicframework.com/docs/nightly/api/service/$ionicHistory/
+2015-11-11 15:25:58.157 LunchMatcher[4404:35557] WARN: $ionicViewService.nextViewOptions is deprecated, please use $ionicHistory.nextViewOptions instead: http://ionicframework.com/docs/nightly/api/service/$ionicHistory/
+2015-11-11 15:25:59.644 LunchMatcher[4404:35557] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/004AD6B9-F7E1-4A3E-9790-C2186D50106F/LunchMatcher.app/www/index.html#/home
+2015-11-11 15:26:01.726 LunchMatcher[4404:35557] WARN: $ionicViewService.nextViewOptions is deprecated, please use $ionicHistory.nextViewOptions instead: http://ionicframework.com/docs/nightly/api/service/$ionicHistory/
+2015-11-11 15:26:01.726 LunchMatcher[4404:35557] ERROR: http://errors.angularjs.org/1.3.6/$parse/syntax?p0=required&p1=is<!-- ngIf: field_required required -->0an%20unexpected%20token&p2=16&p3=field_required%20required&p4=required
+2015-11-11 15:30:03.955 LunchMatcher[4664:37282] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 15:30:03.956 LunchMatcher[4664:37282] Multi-tasking -> Device: YES, App: YES
+2015-11-11 15:30:03.958 LunchMatcher[4664:37282] Unlimited access to network resources
+2015-11-11 15:30:04.066 LunchMatcher[4664:37282] [CDVTimer][keyboard] 0.062048ms
+2015-11-11 15:30:04.120 LunchMatcher[4664:37282] [CDVTimer][socialsharing] 53.596020ms
+2015-11-11 15:30:04.120 LunchMatcher[4664:37282] [CDVTimer][TotalPluginStartup] 54.096997ms
+2015-11-11 15:30:04.181 LunchMatcher[4664:37282] active
+2015-11-11 15:30:04.220 LunchMatcher[4664:37282] Resetting plugins due to page load.
+2015-11-11 15:30:06.754 LunchMatcher[4664:37282] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/C54B4BC4-6C94-4EA1-B985-C5DFBCFF4C47/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 15:30:32.805 LunchMatcher[4910:38054] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 15:30:32.806 LunchMatcher[4910:38054] Multi-tasking -> Device: YES, App: YES
+2015-11-11 15:30:32.807 LunchMatcher[4910:38054] Unlimited access to network resources
+2015-11-11 15:30:32.916 LunchMatcher[4910:38054] [CDVTimer][keyboard] 0.091016ms
+2015-11-11 15:30:32.973 LunchMatcher[4910:38054] [CDVTimer][socialsharing] 56.833982ms
+2015-11-11 15:30:32.973 LunchMatcher[4910:38054] [CDVTimer][TotalPluginStartup] 57.415009ms
+2015-11-11 15:30:33.027 LunchMatcher[4910:38054] active
+2015-11-11 15:30:33.068 LunchMatcher[4910:38054] Resetting plugins due to page load.
+2015-11-11 15:30:36.178 LunchMatcher[4910:38054] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/C893761F-6B04-4340-BB1B-4AA88E5F1018/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 15:31:18.798 LunchMatcher[5164:38904] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 15:31:18.799 LunchMatcher[5164:38904] Multi-tasking -> Device: YES, App: YES
+2015-11-11 15:31:18.800 LunchMatcher[5164:38904] Unlimited access to network resources
+2015-11-11 15:31:18.907 LunchMatcher[5164:38904] [CDVTimer][keyboard] 0.115991ms
+2015-11-11 15:31:18.959 LunchMatcher[5164:38904] [CDVTimer][socialsharing] 51.817954ms
+2015-11-11 15:31:18.959 LunchMatcher[5164:38904] [CDVTimer][TotalPluginStartup] 52.491009ms
+2015-11-11 15:31:19.016 LunchMatcher[5164:38904] active
+2015-11-11 15:31:19.065 LunchMatcher[5164:38904] Resetting plugins due to page load.
+2015-11-11 15:31:21.603 LunchMatcher[5164:38904] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/669401C1-060B-4D2F-9F61-4C3A7F95664B/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 15:31:55.642 LunchMatcher[5412:39726] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 15:31:55.643 LunchMatcher[5412:39726] Multi-tasking -> Device: YES, App: YES
+2015-11-11 15:31:55.651 LunchMatcher[5412:39726] Unlimited access to network resources
+2015-11-11 15:31:55.755 LunchMatcher[5412:39726] [CDVTimer][keyboard] 0.087023ms
+2015-11-11 15:31:55.811 LunchMatcher[5412:39726] [CDVTimer][socialsharing] 55.854976ms
+2015-11-11 15:31:55.811 LunchMatcher[5412:39726] [CDVTimer][TotalPluginStartup] 56.446970ms
+2015-11-11 15:31:55.851 LunchMatcher[5412:39726] active
+2015-11-11 15:31:55.892 LunchMatcher[5412:39726] Resetting plugins due to page load.
+2015-11-11 15:31:58.032 LunchMatcher[5412:39726] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/F67F3D4D-C19F-4222-9E73-B8BC50D30000/LunchMatcher.app/www/index.html#/home
+2015-11-11 15:32:38.069 LunchMatcher[5658:40525] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 15:32:38.070 LunchMatcher[5658:40525] Multi-tasking -> Device: YES, App: YES
+2015-11-11 15:32:38.072 LunchMatcher[5658:40525] Unlimited access to network resources
+2015-11-11 15:32:38.179 LunchMatcher[5658:40525] [CDVTimer][keyboard] 0.063002ms
+2015-11-11 15:32:38.233 LunchMatcher[5658:40525] [CDVTimer][socialsharing] 53.642988ms
+2015-11-11 15:32:38.233 LunchMatcher[5658:40525] [CDVTimer][TotalPluginStartup] 54.123998ms
+2015-11-11 15:32:38.276 LunchMatcher[5658:40525] active
+2015-11-11 15:32:38.316 LunchMatcher[5658:40525] Resetting plugins due to page load.
+2015-11-11 15:32:40.542 LunchMatcher[5658:40525] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/FC8BA77F-4864-4E82-A049-110D84175C2E/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 15:32:46.107 LunchMatcher[5658:40525] {"firstName":"asker","formattedName":"asker ali","headline":"Team Leader (Web development) at NewageSys solutions Plts","id":"po67M2iX8f","industry":"Information Technology and Services","lastName":"ali","pictureUrl":"https://media.licdn.com/mpr/mprx/0_3rnHNj1a855qps2l3-lUNYt-CirZy0pliACBNxi-g6XW_UIAS9QXV0BpuSKQ04jgh1N9U4AnTB_a","pictureUrls":{"_total":1,"values":["https://media.licdn.com/mpr/mprx/0_1SL80bpoU9vKH6bmzuvm06y6y6wKSqwmqDUDJ6SXttoPdzJhngkuU2tdJB2"]},"positions":{"_total":1,"values":[{"company":{"id":147091,"industry":"Pharmaceuticals","name":"NewAgeSys, Inc","size":"201-500 employees","ticker":"","type":"Privately Held"},"id":589051880,"isCurrent":true,"startDate":{"month":6,"year":2011},"summary":"•\tAnalysis & Feasibility study of requirements.\n•\tDesign, & Preparation of Change Specification for requirement.\n•\tPerform business requirements analysis, planning and object model designs.\n•\tImplementation & Unit testing and Integration of  developed codes","title":"Senior Developer with  Team Lead"}]},"siteStandardProfileRequest":{"url":"https://www.linkedin.com/profile/view?id=AAoAABZKTh8BDC7FPsEM4KgbwbbGQ1oIV8U0jMs&authType=name&authToken=zMqk&trk=api*a4272041*s4333271*"}}
+2015-11-11 15:36:53.705 LunchMatcher[5908:41917] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 15:36:53.706 LunchMatcher[5908:41917] Multi-tasking -> Device: YES, App: YES
+2015-11-11 15:36:53.708 LunchMatcher[5908:41917] Unlimited access to network resources
+2015-11-11 15:36:53.814 LunchMatcher[5908:41917] [CDVTimer][keyboard] 0.062048ms
+2015-11-11 15:36:53.868 LunchMatcher[5908:41917] [CDVTimer][socialsharing] 53.493977ms
+2015-11-11 15:36:53.868 LunchMatcher[5908:41917] [CDVTimer][TotalPluginStartup] 53.979993ms
+2015-11-11 15:36:54.016 LunchMatcher[5908:41917] active
+2015-11-11 15:36:54.056 LunchMatcher[5908:41917] Resetting plugins due to page load.
+2015-11-11 15:36:57.832 LunchMatcher[5908:41917] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/04C5B1DF-04E3-4D54-827E-D5A201D8462B/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 15:37:43.241 LunchMatcher[6158:42684] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 15:37:43.242 LunchMatcher[6158:42684] Multi-tasking -> Device: YES, App: YES
+2015-11-11 15:37:43.244 LunchMatcher[6158:42684] Unlimited access to network resources
+2015-11-11 15:37:43.347 LunchMatcher[6158:42684] [CDVTimer][keyboard] 0.167012ms
+2015-11-11 15:37:43.400 LunchMatcher[6158:42684] [CDVTimer][socialsharing] 52.286983ms
+2015-11-11 15:37:43.400 LunchMatcher[6158:42684] [CDVTimer][TotalPluginStartup] 52.981019ms
+2015-11-11 15:37:43.438 LunchMatcher[6158:42684] active
+2015-11-11 15:37:43.487 LunchMatcher[6158:42684] Resetting plugins due to page load.
+2015-11-11 15:37:46.788 LunchMatcher[6158:42684] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/2A3BE58D-4DDF-4EE4-BAFF-9119E150971B/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 15:38:04.404 LunchMatcher[6158:42684] {"firstName":"asker","formattedName":"asker ali","headline":"Team Leader (Web development) at NewageSys solutions Plts","id":"po67M2iX8f","industry":"Information Technology and Services","lastName":"ali","pictureUrl":"https://media.licdn.com/mpr/mprx/0_3rnHNj1a855qps2l3-lUNYt-CirZy0pliACBNxi-g6XW_UIAS9QXV0BpuSKQ04jgh1N9U4AnTB_a","pictureUrls":{"_total":1,"values":["https://media.licdn.com/mpr/mprx/0_1SL80bpoU9vKH6bmzuvm06y6y6wKSqwmqDUDJ6SXttoPdzJhngkuU2tdJB2"]},"positions":{"_total":1,"values":[{"company":{"id":147091,"industry":"Pharmaceuticals","name":"NewAgeSys, Inc","size":"201-500 employees","ticker":"","type":"Privately Held"},"id":589051880,"isCurrent":true,"startDate":{"month":6,"year":2011},"summary":"•\tAnalysis & Feasibility study of requirements.\n•\tDesign, & Preparation of Change Specification for requirement.\n•\tPerform business requirements analysis, planning and object model designs.\n•\tImplementation & Unit testing and Integration of  developed codes","title":"Senior Developer with  Team Lead"}]},"siteStandardProfileRequest":{"url":"https://www.linkedin.com/profile/view?id=AAoAABZKTh8BDC7FPsEM4KgbwbbGQ1oIV8U0jMs&authType=name&authToken=zMqk&trk=api*a4272041*s4333271*"}}
+2015-11-11 15:39:30.216 LunchMatcher[6158:42684] Can't find keyplane that supports type 5 for keyboard iPhone-PortraitChoco-PhonePad; using 3760611571_PortraitChoco_iPhone-Complex-Pad_Default
+2015-11-11 15:42:03.994 LunchMatcher[6419:44075] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 15:42:03.995 LunchMatcher[6419:44075] Multi-tasking -> Device: YES, App: YES
+2015-11-11 15:42:03.997 LunchMatcher[6419:44075] Unlimited access to network resources
+2015-11-11 15:42:04.106 LunchMatcher[6419:44075] [CDVTimer][keyboard] 0.066042ms
+2015-11-11 15:42:04.160 LunchMatcher[6419:44075] [CDVTimer][socialsharing] 53.871989ms
+2015-11-11 15:42:04.160 LunchMatcher[6419:44075] [CDVTimer][TotalPluginStartup] 54.279029ms
+2015-11-11 15:42:04.222 LunchMatcher[6419:44075] active
+2015-11-11 15:42:04.269 LunchMatcher[6419:44075] Resetting plugins due to page load.
+2015-11-11 15:42:07.575 LunchMatcher[6419:44075] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/3CE240B9-6485-4742-B203-8CC821557DAA/LunchMatcher.app/www/index.html#/home
+2015-11-11 15:42:15.795 LunchMatcher[6419:44075] {"firstName":"asker","formattedName":"asker ali","headline":"Team Leader (Web development) at NewageSys solutions Plts","id":"po67M2iX8f","industry":"Information Technology and Services","lastName":"ali","pictureUrl":"https://media.licdn.com/mpr/mprx/0_3rnHNj1a855qps2l3-lUNYt-CirZy0pliACBNxi-g6XW_UIAS9QXV0BpuSKQ04jgh1N9U4AnTB_a","pictureUrls":{"_total":1,"values":["https://media.licdn.com/mpr/mprx/0_1SL80bpoU9vKH6bmzuvm06y6y6wKSqwmqDUDJ6SXttoPdzJhngkuU2tdJB2"]},"positions":{"_total":1,"values":[{"company":{"id":147091,"industry":"Pharmaceuticals","name":"NewAgeSys, Inc","size":"201-500 employees","ticker":"","type":"Privately Held"},"id":589051880,"isCurrent":true,"startDate":{"month":6,"year":2011},"summary":"•\tAnalysis & Feasibility study of requirements.\n•\tDesign, & Preparation of Change Specification for requirement.\n•\tPerform business requirements analysis, planning and object model designs.\n•\tImplementation & Unit testing and Integration of  developed codes","title":"Senior Developer with  Team Lead"}]},"siteStandardProfileRequest":{"url":"https://www.linkedin.com/profile/view?id=AAoAABZKTh8BDC7FPsEM4KgbwbbGQ1oIV8U0jMs&authType=name&authToken=zMqk&trk=api*a4272041*s4333271*"}}
+2015-11-11 15:42:26.596 LunchMatcher[6419:44075] Can't find keyplane that supports type 5 for keyboard iPhone-PortraitChoco-PhonePad; using 3760611571_PortraitChoco_iPhone-Complex-Pad_Default
+2015-11-11 15:42:28.507 LunchMatcher[6419:44075] {"firstName":"asker","formattedName":"asker ali","headline":"Team Leader (Web development) at NewageSys solutions Plts","id":"po67M2iX8f","industry":"Information Technology and Services","lastName":"ali","pictureUrl":"https://media.licdn.com/mpr/mprx/0_3rnHNj1a855qps2l3-lUNYt-CirZy0pliACBNxi-g6XW_UIAS9QXV0BpuSKQ04jgh1N9U4AnTB_a","pictureUrls":{"_total":1,"values":["https://media.licdn.com/mpr/mprx/0_1SL80bpoU9vKH6bmzuvm06y6y6wKSqwmqDUDJ6SXttoPdzJhngkuU2tdJB2"]},"positions":{"_total":1,"values":[{"company":{"id":147091,"industry":"Pharmaceuticals","name":"NewAgeSys, Inc","size":"201-500 employees","ticker":"","type":"Privately Held"},"id":589051880,"isCurrent":true,"startDate":{"month":6,"year":2011},"summary":"•\tAnalysis & Feasibility study of requirements.\n•\tDesign, & Preparation of Change Specification for requirement.\n•\tPerform business requirements analysis, planning and object model designs.\n•\tImplementation & Unit testing and Integration of  developed codes","title":"Senior Developer with  Team Lead"}]},"siteStandardProfileRequest":{"url":"https://www.linkedin.com/profile/view?id=AAoAABZKTh8BDC7FPsEM4KgbwbbGQ1oIV8U0jMs&authType=name&authToken=zMqk&trk=api*a4272041*s4333271*"}}
+2015-11-11 15:43:34.657 LunchMatcher[6665:45006] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 15:43:34.658 LunchMatcher[6665:45006] Multi-tasking -> Device: YES, App: YES
+2015-11-11 15:43:34.659 LunchMatcher[6665:45006] Unlimited access to network resources
+2015-11-11 15:43:34.767 LunchMatcher[6665:45006] [CDVTimer][keyboard] 0.101984ms
+2015-11-11 15:43:34.822 LunchMatcher[6665:45006] [CDVTimer][socialsharing] 54.175019ms
+2015-11-11 15:43:34.822 LunchMatcher[6665:45006] [CDVTimer][TotalPluginStartup] 54.717004ms
+2015-11-11 15:43:34.874 LunchMatcher[6665:45006] active
+2015-11-11 15:43:34.918 LunchMatcher[6665:45006] Resetting plugins due to page load.
+2015-11-11 15:43:36.874 LunchMatcher[6665:45006] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/5B707C1E-41C7-4CB1-8557-231A258F3D1D/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 15:46:23.891 LunchMatcher[6915:46244] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 15:46:23.892 LunchMatcher[6915:46244] Multi-tasking -> Device: YES, App: YES
+2015-11-11 15:46:23.897 LunchMatcher[6915:46244] Unlimited access to network resources
+2015-11-11 15:46:24.004 LunchMatcher[6915:46244] [CDVTimer][keyboard] 0.070989ms
+2015-11-11 15:46:24.060 LunchMatcher[6915:46244] [CDVTimer][socialsharing] 55.842996ms
+2015-11-11 15:46:24.060 LunchMatcher[6915:46244] [CDVTimer][TotalPluginStartup] 56.315005ms
+2015-11-11 15:46:24.107 LunchMatcher[6915:46244] active
+2015-11-11 15:46:24.154 LunchMatcher[6915:46244] Resetting plugins due to page load.
+2015-11-11 15:46:27.232 LunchMatcher[6915:46244] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/7C8EFA6F-4387-4A40-8AFB-A3038503BD82/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 15:47:01.291 LunchMatcher[7165:47043] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 15:47:01.292 LunchMatcher[7165:47043] Multi-tasking -> Device: YES, App: YES
+2015-11-11 15:47:01.303 LunchMatcher[7165:47043] Unlimited access to network resources
+2015-11-11 15:47:01.417 LunchMatcher[7165:47043] [CDVTimer][keyboard] 0.066996ms
+2015-11-11 15:47:01.476 LunchMatcher[7165:47043] [CDVTimer][socialsharing] 58.795989ms
+2015-11-11 15:47:01.476 LunchMatcher[7165:47043] [CDVTimer][TotalPluginStartup] 59.351981ms
+2015-11-11 15:47:01.488 LunchMatcher[7165:47043] active
+2015-11-11 15:47:01.528 LunchMatcher[7165:47043] Resetting plugins due to page load.
+2015-11-11 15:47:03.971 LunchMatcher[7165:47043] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/59D686A2-CCC8-425E-A84B-30D353B52B83/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 15:47:32.037 LunchMatcher[7165:47043] Can't find keyplane that supports type 5 for keyboard iPhone-PortraitChoco-PhonePad; using 3760611571_PortraitChoco_iPhone-Complex-Pad_Default
+2015-11-11 15:47:35.618 LunchMatcher[7165:47043] Can't find keyplane that supports type 5 for keyboard iPhone-PortraitChoco-PhonePad; using 3760611571_PortraitChoco_iPhone-Complex-Pad_Default
+2015-11-11 15:48:53.702 LunchMatcher[7412:48087] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 15:48:53.703 LunchMatcher[7412:48087] Multi-tasking -> Device: YES, App: YES
+2015-11-11 15:48:53.705 LunchMatcher[7412:48087] Unlimited access to network resources
+2015-11-11 15:48:53.823 LunchMatcher[7412:48087] [CDVTimer][keyboard] 0.105023ms
+2015-11-11 15:48:53.882 LunchMatcher[7412:48087] [CDVTimer][socialsharing] 59.141994ms
+2015-11-11 15:48:53.882 LunchMatcher[7412:48087] [CDVTimer][TotalPluginStartup] 59.754014ms
+2015-11-11 15:48:53.900 LunchMatcher[7412:48087] active
+2015-11-11 15:48:53.945 LunchMatcher[7412:48087] Resetting plugins due to page load.
+2015-11-11 15:48:56.377 LunchMatcher[7412:48087] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/97ABFFA5-0FA0-440F-8AC9-2063B0F8016E/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 15:52:23.762 LunchMatcher[7659:49286] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 15:52:23.763 LunchMatcher[7659:49286] Multi-tasking -> Device: YES, App: YES
+2015-11-11 15:52:23.773 LunchMatcher[7659:49286] Unlimited access to network resources
+2015-11-11 15:52:23.878 LunchMatcher[7659:49286] [CDVTimer][keyboard] 0.077009ms
+2015-11-11 15:52:23.932 LunchMatcher[7659:49286] [CDVTimer][socialsharing] 53.106010ms
+2015-11-11 15:52:23.932 LunchMatcher[7659:49286] [CDVTimer][TotalPluginStartup] 53.669035ms
+2015-11-11 15:52:23.993 LunchMatcher[7659:49286] active
+2015-11-11 15:52:24.037 LunchMatcher[7659:49286] Resetting plugins due to page load.
+2015-11-11 15:52:26.306 LunchMatcher[7659:49286] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/1019781E-A67F-405C-BEAA-19D64C44DC79/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 15:52:40.725 LunchMatcher[7659:49286] Can't find keyplane that supports type 5 for keyboard iPhone-PortraitChoco-PhonePad; using 3760611571_PortraitChoco_iPhone-Complex-Pad_Default
+2015-11-11 15:54:02.785 LunchMatcher[7904:50272] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 15:54:02.786 LunchMatcher[7904:50272] Multi-tasking -> Device: YES, App: YES
+2015-11-11 15:54:02.794 LunchMatcher[7904:50272] Unlimited access to network resources
+2015-11-11 15:54:02.903 LunchMatcher[7904:50272] [CDVTimer][keyboard] 0.093997ms
+2015-11-11 15:54:02.960 LunchMatcher[7904:50272] [CDVTimer][socialsharing] 57.080030ms
+2015-11-11 15:54:02.960 LunchMatcher[7904:50272] [CDVTimer][TotalPluginStartup] 57.694972ms
+2015-11-11 15:54:03.006 LunchMatcher[7904:50272] active
+2015-11-11 15:54:03.047 LunchMatcher[7904:50272] Resetting plugins due to page load.
+2015-11-11 15:54:13.292 LunchMatcher[7904:50272] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/CBBBE396-43CC-467C-9206-B622DB0A8D67/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 15:54:25.264 LunchMatcher[7904:50272] Can't find keyplane that supports type 5 for keyboard iPhone-PortraitChoco-PhonePad; using 3760611571_PortraitChoco_iPhone-Complex-Pad_Default
+2015-11-11 15:54:43.973 LunchMatcher[7904:50272] Can't find keyplane that supports type 5 for keyboard iPhone-PortraitChoco-PhonePad; using 3760611571_PortraitChoco_iPhone-Complex-Pad_Default
+2015-11-11 15:55:53.858 LunchMatcher[8151:51670] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 15:55:53.859 LunchMatcher[8151:51670] Multi-tasking -> Device: YES, App: YES
+2015-11-11 15:55:53.861 LunchMatcher[8151:51670] Unlimited access to network resources
+2015-11-11 15:55:53.967 LunchMatcher[8151:51670] [CDVTimer][keyboard] 0.091016ms
+2015-11-11 15:55:54.022 LunchMatcher[8151:51670] [CDVTimer][socialsharing] 55.203021ms
+2015-11-11 15:55:54.022 LunchMatcher[8151:51670] [CDVTimer][TotalPluginStartup] 55.757999ms
+2015-11-11 15:55:54.086 LunchMatcher[8151:51670] active
+2015-11-11 15:55:54.126 LunchMatcher[8151:51670] Resetting plugins due to page load.
+2015-11-11 15:55:56.362 LunchMatcher[8151:51670] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/D005733E-3225-4FAF-AD79-6059ADE2329C/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 15:56:08.222 LunchMatcher[8151:51696] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-11-11 15:56:20.516 LunchMatcher[8151:51670] Can't find keyplane that supports type 5 for keyboard iPhone-PortraitChoco-PhonePad; using 3760611571_PortraitChoco_iPhone-Complex-Pad_Default
+2015-11-11 15:56:24.359 LunchMatcher[8151:51670] Can't find keyplane that supports type 5 for keyboard iPhone-PortraitChoco-PhonePad; using 3760611571_PortraitChoco_iPhone-Complex-Pad_Default
+2015-11-11 15:56:33.151 LunchMatcher[8151:51670] Can't find keyplane that supports type 5 for keyboard iPhone-PortraitChoco-PhonePad; using 3760611571_PortraitChoco_iPhone-Complex-Pad_Default
+2015-11-11 15:56:45.308 LunchMatcher[8151:51670] Can't find keyplane that supports type 5 for keyboard iPhone-PortraitChoco-PhonePad; using 3760611571_PortraitChoco_iPhone-Complex-Pad_Default
+2015-11-11 15:57:58.766 LunchMatcher[8400:52758] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 15:57:58.767 LunchMatcher[8400:52758] Multi-tasking -> Device: YES, App: YES
+2015-11-11 15:57:58.769 LunchMatcher[8400:52758] Unlimited access to network resources
+2015-11-11 15:57:58.876 LunchMatcher[8400:52758] [CDVTimer][keyboard] 0.062048ms
+2015-11-11 15:57:58.923 LunchMatcher[8400:52758] [CDVTimer][socialsharing] 47.093987ms
+2015-11-11 15:57:58.923 LunchMatcher[8400:52758] [CDVTimer][TotalPluginStartup] 47.692001ms
+2015-11-11 15:57:58.994 LunchMatcher[8400:52758] active
+2015-11-11 15:57:59.044 LunchMatcher[8400:52758] Resetting plugins due to page load.
+2015-11-11 15:58:01.537 LunchMatcher[8400:52758] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/DE495EDC-CDA8-4216-A6B5-20FBC417FB4D/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 15:58:46.718 LunchMatcher[8640:53551] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 15:58:46.719 LunchMatcher[8640:53551] Multi-tasking -> Device: YES, App: YES
+2015-11-11 15:58:46.735 LunchMatcher[8640:53551] Unlimited access to network resources
+2015-11-11 15:58:46.839 LunchMatcher[8640:53551] [CDVTimer][keyboard] 0.066996ms
+2015-11-11 15:58:46.894 LunchMatcher[8640:53551] [CDVTimer][socialsharing] 54.316998ms
+2015-11-11 15:58:46.894 LunchMatcher[8640:53551] [CDVTimer][TotalPluginStartup] 54.799020ms
+2015-11-11 15:58:46.937 LunchMatcher[8640:53551] active
+2015-11-11 15:58:46.977 LunchMatcher[8640:53551] Resetting plugins due to page load.
+2015-11-11 15:58:49.162 LunchMatcher[8640:53551] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/4F36A97D-B713-4935-9B93-C9DC839CECAE/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 15:59:14.871 LunchMatcher[8894:54318] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 15:59:14.872 LunchMatcher[8894:54318] Multi-tasking -> Device: YES, App: YES
+2015-11-11 15:59:14.874 LunchMatcher[8894:54318] Unlimited access to network resources
+2015-11-11 15:59:14.984 LunchMatcher[8894:54318] [CDVTimer][keyboard] 0.068009ms
+2015-11-11 15:59:15.037 LunchMatcher[8894:54318] [CDVTimer][socialsharing] 52.574992ms
+2015-11-11 15:59:15.037 LunchMatcher[8894:54318] [CDVTimer][TotalPluginStartup] 53.051054ms
+2015-11-11 15:59:15.097 LunchMatcher[8894:54318] active
+2015-11-11 15:59:15.138 LunchMatcher[8894:54318] Resetting plugins due to page load.
+2015-11-11 15:59:18.072 LunchMatcher[8894:54318] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/7487CBDB-916A-44F0-97F5-E6F5ED83E3AB/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 15:59:38.779 LunchMatcher[9148:55034] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 15:59:38.780 LunchMatcher[9148:55034] Multi-tasking -> Device: YES, App: YES
+2015-11-11 15:59:38.782 LunchMatcher[9148:55034] Unlimited access to network resources
+2015-11-11 15:59:38.888 LunchMatcher[9148:55034] [CDVTimer][keyboard] 0.064015ms
+2015-11-11 15:59:38.943 LunchMatcher[9148:55034] [CDVTimer][socialsharing] 54.825008ms
+2015-11-11 15:59:38.944 LunchMatcher[9148:55034] [CDVTimer][TotalPluginStartup] 55.301011ms
+2015-11-11 15:59:38.996 LunchMatcher[9148:55034] active
+2015-11-11 15:59:39.038 LunchMatcher[9148:55034] Resetting plugins due to page load.
+2015-11-11 15:59:41.667 LunchMatcher[9148:55034] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/2F94470D-3676-43B1-B1EC-6657E74AE2C4/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 16:00:28.288 LunchMatcher[9394:55883] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 16:00:28.289 LunchMatcher[9394:55883] Multi-tasking -> Device: YES, App: YES
+2015-11-11 16:00:28.291 LunchMatcher[9394:55883] Unlimited access to network resources
+2015-11-11 16:00:28.395 LunchMatcher[9394:55883] [CDVTimer][keyboard] 0.067055ms
+2015-11-11 16:00:28.449 LunchMatcher[9394:55883] [CDVTimer][socialsharing] 53.164005ms
+2015-11-11 16:00:28.449 LunchMatcher[9394:55883] [CDVTimer][TotalPluginStartup] 53.636014ms
+2015-11-11 16:00:28.525 LunchMatcher[9394:55883] active
+2015-11-11 16:00:28.565 LunchMatcher[9394:55883] Resetting plugins due to page load.
+2015-11-11 16:00:30.753 LunchMatcher[9394:55883] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/6261C597-9D8D-4F7B-AA7B-BECC5EF5BEAC/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 16:01:37.701 LunchMatcher[9646:56752] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 16:01:37.702 LunchMatcher[9646:56752] Multi-tasking -> Device: YES, App: YES
+2015-11-11 16:01:37.704 LunchMatcher[9646:56752] Unlimited access to network resources
+2015-11-11 16:01:37.811 LunchMatcher[9646:56752] [CDVTimer][keyboard] 0.090003ms
+2015-11-11 16:01:37.867 LunchMatcher[9646:56752] [CDVTimer][socialsharing] 55.383980ms
+2015-11-11 16:01:37.867 LunchMatcher[9646:56752] [CDVTimer][TotalPluginStartup] 55.967033ms
+2015-11-11 16:01:37.941 LunchMatcher[9646:56752] active
+2015-11-11 16:01:37.986 LunchMatcher[9646:56752] Resetting plugins due to page load.
+2015-11-11 16:01:40.381 LunchMatcher[9646:56752] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/4E4B926D-9023-4738-A9F6-36BEF7E4C1B6/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 16:03:45.819 LunchMatcher[9899:57835] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 16:03:45.820 LunchMatcher[9899:57835] Multi-tasking -> Device: YES, App: YES
+2015-11-11 16:03:45.822 LunchMatcher[9899:57835] Unlimited access to network resources
+2015-11-11 16:03:45.928 LunchMatcher[9899:57835] [CDVTimer][keyboard] 0.093043ms
+2015-11-11 16:03:45.982 LunchMatcher[9899:57835] [CDVTimer][socialsharing] 54.271042ms
+2015-11-11 16:03:45.983 LunchMatcher[9899:57835] [CDVTimer][TotalPluginStartup] 54.858029ms
+2015-11-11 16:03:46.053 LunchMatcher[9899:57835] active
+2015-11-11 16:03:46.101 LunchMatcher[9899:57835] Resetting plugins due to page load.
+2015-11-11 16:03:52.050 LunchMatcher[9899:57835] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/C71136FC-28E3-4F01-B0FA-AAB8861FE6C7/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 16:05:32.376 LunchMatcher[10145:58887] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 16:05:32.377 LunchMatcher[10145:58887] Multi-tasking -> Device: YES, App: YES
+2015-11-11 16:05:32.379 LunchMatcher[10145:58887] Unlimited access to network resources
+2015-11-11 16:05:32.487 LunchMatcher[10145:58887] [CDVTimer][keyboard] 0.086963ms
+2015-11-11 16:05:32.540 LunchMatcher[10145:58887] [CDVTimer][socialsharing] 53.122997ms
+2015-11-11 16:05:32.540 LunchMatcher[10145:58887] [CDVTimer][TotalPluginStartup] 53.627968ms
+2015-11-11 16:05:32.635 LunchMatcher[10145:58887] active
+2015-11-11 16:05:32.657 LunchMatcher[10145:58887] Resetting plugins due to page load.
+2015-11-11 16:05:34.800 LunchMatcher[10145:58887] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/BF540919-2075-4464-B23F-CDA6C1EE2B4C/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 16:05:38.887 LunchMatcher[10145:58887] {"firstName":"asker","formattedName":"asker ali","headline":"Team Leader (Web development) at NewageSys solutions Plts","id":"po67M2iX8f","industry":"Information Technology and Services","lastName":"ali","pictureUrl":"https://media.licdn.com/mpr/mprx/0_3rnHNj1a855qps2l3-lUNYt-CirZy0pliACBNxi-g6XW_UIAS9QXV0BpuSKQ04jgh1N9U4AnTB_a","pictureUrls":{"_total":1,"values":["https://media.licdn.com/mpr/mprx/0_1SL80bpoU9vKH6bmzuvm06y6y6wKSqwmqDUDJ6SXttoPdzJhngkuU2tdJB2"]},"positions":{"_total":1,"values":[{"company":{"id":147091,"industry":"Pharmaceuticals","name":"NewAgeSys, Inc","size":"201-500 employees","ticker":"","type":"Privately Held"},"id":589051880,"isCurrent":true,"startDate":{"month":6,"year":2011},"summary":"•\tAnalysis & Feasibility study of requirements.\n•\tDesign, & Preparation of Change Specification for requirement.\n•\tPerform business requirements analysis, planning and object model designs.\n•\tImplementation & Unit testing and Integration of  developed codes","title":"Senior Developer with  Team Lead"}]},"siteStandardProfileRequest":{"url":"https://www.linkedin.com/profile/view?id=AAoAABZKTh8BDC7FPsEM4KgbwbbGQ1oIV8U0jMs&authType=name&authToken=zMqk&trk=api*a4272041*s4333271*"}}
+2015-11-11 16:05:45.636 LunchMatcher[10145:58887] {"firstName":"asker","formattedName":"asker ali","headline":"Team Leader (Web development) at NewageSys solutions Plts","id":"po67M2iX8f","industry":"Information Technology and Services","lastName":"ali","pictureUrl":"https://media.licdn.com/mpr/mprx/0_3rnHNj1a855qps2l3-lUNYt-CirZy0pliACBNxi-g6XW_UIAS9QXV0BpuSKQ04jgh1N9U4AnTB_a","pictureUrls":{"_total":1,"values":["https://media.licdn.com/mpr/mprx/0_1SL80bpoU9vKH6bmzuvm06y6y6wKSqwmqDUDJ6SXttoPdzJhngkuU2tdJB2"]},"positions":{"_total":1,"values":[{"company":{"id":147091,"industry":"Pharmaceuticals","name":"NewAgeSys, Inc","size":"201-500 employees","ticker":"","type":"Privately Held"},"id":589051880,"isCurrent":true,"startDate":{"month":6,"year":2011},"summary":"•\tAnalysis & Feasibility study of requirements.\n•\tDesign, & Preparation of Change Specification for requirement.\n•\tPerform business requirements analysis, planning and object model designs.\n•\tImplementation & Unit testing and Integration of  developed codes","title":"Senior Developer with  Team Lead"}]},"siteStandardProfileRequest":{"url":"https://www.linkedin.com/profile/view?id=AAoAABZKTh8BDC7FPsEM4KgbwbbGQ1oIV8U0jMs&authType=name&authToken=zMqk&trk=api*a4272041*s4333271*"}}
+2015-11-11 16:06:06.762 LunchMatcher[10397:59639] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 16:06:06.763 LunchMatcher[10397:59639] Multi-tasking -> Device: YES, App: YES
+2015-11-11 16:06:06.764 LunchMatcher[10397:59639] Unlimited access to network resources
+2015-11-11 16:06:06.869 LunchMatcher[10397:59639] [CDVTimer][keyboard] 0.061989ms
+2015-11-11 16:06:06.921 LunchMatcher[10397:59639] [CDVTimer][socialsharing] 51.815033ms
+2015-11-11 16:06:06.921 LunchMatcher[10397:59639] [CDVTimer][TotalPluginStartup] 52.233994ms
+2015-11-11 16:06:06.997 LunchMatcher[10397:59639] active
+2015-11-11 16:06:07.041 LunchMatcher[10397:59639] Resetting plugins due to page load.
+2015-11-11 16:06:08.985 LunchMatcher[10397:59639] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/B4ABBE90-9868-46A8-86AE-81BA6F4CCA01/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 16:06:13.270 LunchMatcher[10397:59639] {"firstName":"asker","formattedName":"asker ali","headline":"Team Leader (Web development) at NewageSys solutions Plts","id":"po67M2iX8f","industry":"Information Technology and Services","lastName":"ali","pictureUrl":"https://media.licdn.com/mpr/mprx/0_3rnHNj1a855qps2l3-lUNYt-CirZy0pliACBNxi-g6XW_UIAS9QXV0BpuSKQ04jgh1N9U4AnTB_a","pictureUrls":{"_total":1,"values":["https://media.licdn.com/mpr/mprx/0_1SL80bpoU9vKH6bmzuvm06y6y6wKSqwmqDUDJ6SXttoPdzJhngkuU2tdJB2"]},"positions":{"_total":1,"values":[{"company":{"id":147091,"industry":"Pharmaceuticals","name":"NewAgeSys, Inc","size":"201-500 employees","ticker":"","type":"Privately Held"},"id":589051880,"isCurrent":true,"startDate":{"month":6,"year":2011},"summary":"•\tAnalysis & Feasibility study of requirements.\n•\tDesign, & Preparation of Change Specification for requirement.\n•\tPerform business requirements analysis, planning and object model designs.\n•\tImplementation & Unit testing and Integration of  developed codes","title":"Senior Developer with  Team Lead"}]},"siteStandardProfileRequest":{"url":"https://www.linkedin.com/profile/view?id=AAoAABZKTh8BDC7FPsEM4KgbwbbGQ1oIV8U0jMs&authType=name&authToken=zMqk&trk=api*a4272041*s4333271*"}}
+2015-11-11 16:06:24.641 LunchMatcher[10397:59639] {"firstName":"asker","formattedName":"asker ali","headline":"Team Leader (Web development) at NewageSys solutions Plts","id":"po67M2iX8f","industry":"Information Technology and Services","lastName":"ali","pictureUrl":"https://media.licdn.com/mpr/mprx/0_3rnHNj1a855qps2l3-lUNYt-CirZy0pliACBNxi-g6XW_UIAS9QXV0BpuSKQ04jgh1N9U4AnTB_a","pictureUrls":{"_total":1,"values":["https://media.licdn.com/mpr/mprx/0_1SL80bpoU9vKH6bmzuvm06y6y6wKSqwmqDUDJ6SXttoPdzJhngkuU2tdJB2"]},"positions":{"_total":1,"values":[{"company":{"id":147091,"industry":"Pharmaceuticals","name":"NewAgeSys, Inc","size":"201-500 employees","ticker":"","type":"Privately Held"},"id":589051880,"isCurrent":true,"startDate":{"month":6,"year":2011},"summary":"•\tAnalysis & Feasibility study of requirements.\n•\tDesign, & Preparation of Change Specification for requirement.\n•\tPerform business requirements analysis, planning and object model designs.\n•\tImplementation & Unit testing and Integration of  developed codes","title":"Senior Developer with  Team Lead"}]},"siteStandardProfileRequest":{"url":"https://www.linkedin.com/profile/view?id=AAoAABZKTh8BDC7FPsEM4KgbwbbGQ1oIV8U0jMs&authType=name&authToken=zMqk&trk=api*a4272041*s4333271*"}}
+2015-11-11 16:09:43.231 LunchMatcher[10647:61047] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 16:09:43.232 LunchMatcher[10647:61047] Multi-tasking -> Device: YES, App: YES
+2015-11-11 16:09:43.246 LunchMatcher[10647:61047] Unlimited access to network resources
+2015-11-11 16:09:43.355 LunchMatcher[10647:61047] [CDVTimer][keyboard] 0.099003ms
+2015-11-11 16:09:43.408 LunchMatcher[10647:61047] [CDVTimer][socialsharing] 53.402007ms
+2015-11-11 16:09:43.409 LunchMatcher[10647:61047] [CDVTimer][TotalPluginStartup] 54.002047ms
+2015-11-11 16:09:43.461 LunchMatcher[10647:61047] active
+2015-11-11 16:09:43.502 LunchMatcher[10647:61047] Resetting plugins due to page load.
+2015-11-11 16:09:46.443 LunchMatcher[10647:61047] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/E68BA9EC-4A36-4CC4-AF32-073EB26CDFA6/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 16:10:03.898 LunchMatcher[10647:61074] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-11-11 16:10:06.115 LunchMatcher[10647:61047] {"firstName":"asker","formattedName":"asker ali","headline":"Team Leader (Web development) at NewageSys solutions Plts","id":"po67M2iX8f","industry":"Information Technology and Services","lastName":"ali","pictureUrl":"https://media.licdn.com/mpr/mprx/0_3rnHNj1a855qps2l3-lUNYt-CirZy0pliACBNxi-g6XW_UIAS9QXV0BpuSKQ04jgh1N9U4AnTB_a","pictureUrls":{"_total":1,"values":["https://media.licdn.com/mpr/mprx/0_1SL80bpoU9vKH6bmzuvm06y6y6wKSqwmqDUDJ6SXttoPdzJhngkuU2tdJB2"]},"positions":{"_total":1,"values":[{"company":{"id":147091,"industry":"Pharmaceuticals","name":"NewAgeSys, Inc","size":"201-500 employees","ticker":"","type":"Privately Held"},"id":589051880,"isCurrent":true,"startDate":{"month":6,"year":2011},"summary":"•\tAnalysis & Feasibility study of requirements.\n•\tDesign, & Preparation of Change Specification for requirement.\n•\tPerform business requirements analysis, planning and object model designs.\n•\tImplementation & Unit testing and Integration of  developed codes","title":"Senior Developer with  Team Lead"}]},"siteStandardProfileRequest":{"url":"https://www.linkedin.com/profile/view?id=AAoAABZKTh8BDC7FPsEM4KgbwbbGQ1oIV8U0jMs&authType=name&authToken=zMqk&trk=api*a4272041*s4333271*"}}
+2015-11-11 16:11:39.166 LunchMatcher[10897:61963] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 16:11:39.167 LunchMatcher[10897:61963] Multi-tasking -> Device: YES, App: YES
+2015-11-11 16:11:39.168 LunchMatcher[10897:61963] Unlimited access to network resources
+2015-11-11 16:11:39.273 LunchMatcher[10897:61963] [CDVTimer][keyboard] 0.097036ms
+2015-11-11 16:11:39.325 LunchMatcher[10897:61963] [CDVTimer][socialsharing] 52.204967ms
+2015-11-11 16:11:39.325 LunchMatcher[10897:61963] [CDVTimer][TotalPluginStartup] 52.783012ms
+2015-11-11 16:11:39.384 LunchMatcher[10897:61963] active
+2015-11-11 16:11:39.426 LunchMatcher[10897:61963] Resetting plugins due to page load.
+2015-11-11 16:11:41.692 LunchMatcher[10897:61963] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/BD809287-EB0A-48B5-9556-60BBD0D65890/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 16:11:45.826 LunchMatcher[10897:61963] {"firstName":"asker","formattedName":"asker ali","headline":"Team Leader (Web development) at NewageSys solutions Plts","id":"po67M2iX8f","industry":"Information Technology and Services","lastName":"ali","pictureUrl":"https://media.licdn.com/mpr/mprx/0_3rnHNj1a855qps2l3-lUNYt-CirZy0pliACBNxi-g6XW_UIAS9QXV0BpuSKQ04jgh1N9U4AnTB_a","pictureUrls":{"_total":1,"values":["https://media.licdn.com/mpr/mprx/0_1SL80bpoU9vKH6bmzuvm06y6y6wKSqwmqDUDJ6SXttoPdzJhngkuU2tdJB2"]},"positions":{"_total":1,"values":[{"company":{"id":147091,"industry":"Pharmaceuticals","name":"NewAgeSys, Inc","size":"201-500 employees","ticker":"","type":"Privately Held"},"id":589051880,"isCurrent":true,"startDate":{"month":6,"year":2011},"summary":"•\tAnalysis & Feasibility study of requirements.\n•\tDesign, & Preparation of Change Specification for requirement.\n•\tPerform business requirements analysis, planning and object model designs.\n•\tImplementation & Unit testing and Integration of  developed codes","title":"Senior Developer with  Team Lead"}]},"siteStandardProfileRequest":{"url":"https://www.linkedin.com/profile/view?id=AAoAABZKTh8BDC7FPsEM4KgbwbbGQ1oIV8U0jMs&authType=name&authToken=zMqk&trk=api*a4272041*s4333271*"}}
+2015-11-11 16:14:11.877 LunchMatcher[11149:63001] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 16:14:11.878 LunchMatcher[11149:63001] Multi-tasking -> Device: YES, App: YES
+2015-11-11 16:14:11.880 LunchMatcher[11149:63001] Unlimited access to network resources
+2015-11-11 16:14:11.987 LunchMatcher[11149:63001] [CDVTimer][keyboard] 0.087023ms
+2015-11-11 16:14:12.044 LunchMatcher[11149:63001] [CDVTimer][socialsharing] 56.893051ms
+2015-11-11 16:14:12.044 LunchMatcher[11149:63001] [CDVTimer][TotalPluginStartup] 57.467997ms
+2015-11-11 16:14:12.157 LunchMatcher[11149:63001] active
+2015-11-11 16:14:12.199 LunchMatcher[11149:63001] Resetting plugins due to page load.
+2015-11-11 16:14:14.476 LunchMatcher[11149:63001] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/0064F734-D8C9-483D-B886-F67F14C187B4/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 16:14:18.929 LunchMatcher[11149:63001] {"firstName":"asker","formattedName":"asker ali","headline":"Team Leader (Web development) at NewageSys solutions Plts","id":"po67M2iX8f","industry":"Information Technology and Services","lastName":"ali","pictureUrl":"https://media.licdn.com/mpr/mprx/0_3rnHNj1a855qps2l3-lUNYt-CirZy0pliACBNxi-g6XW_UIAS9QXV0BpuSKQ04jgh1N9U4AnTB_a","pictureUrls":{"_total":1,"values":["https://media.licdn.com/mpr/mprx/0_1SL80bpoU9vKH6bmzuvm06y6y6wKSqwmqDUDJ6SXttoPdzJhngkuU2tdJB2"]},"positions":{"_total":1,"values":[{"company":{"id":147091,"industry":"Pharmaceuticals","name":"NewAgeSys, Inc","size":"201-500 employees","ticker":"","type":"Privately Held"},"id":589051880,"isCurrent":true,"startDate":{"month":6,"year":2011},"summary":"•\tAnalysis & Feasibility study of requirements.\n•\tDesign, & Preparation of Change Specification for requirement.\n•\tPerform business requirements analysis, planning and object model designs.\n•\tImplementation & Unit testing and Integration of  developed codes","title":"Senior Developer with  Team Lead"}]},"siteStandardProfileRequest":{"url":"https://www.linkedin.com/profile/view?id=AAoAABZKTh8BDC7FPsEM4KgbwbbGQ1oIV8U0jMs&authType=name&authToken=zMqk&trk=api*a4272041*s4333271*"}}
+2015-11-11 16:14:38.544 LunchMatcher[11399:63693] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 16:14:38.545 LunchMatcher[11399:63693] Multi-tasking -> Device: YES, App: YES
+2015-11-11 16:14:38.547 LunchMatcher[11399:63693] Unlimited access to network resources
+2015-11-11 16:14:38.652 LunchMatcher[11399:63693] [CDVTimer][keyboard] 0.063002ms
+2015-11-11 16:14:38.706 LunchMatcher[11399:63693] [CDVTimer][socialsharing] 53.748012ms
+2015-11-11 16:14:38.707 LunchMatcher[11399:63693] [CDVTimer][TotalPluginStartup] 54.266989ms
+2015-11-11 16:14:38.760 LunchMatcher[11399:63693] active
+2015-11-11 16:14:38.804 LunchMatcher[11399:63693] Resetting plugins due to page load.
+2015-11-11 16:14:40.754 LunchMatcher[11399:63693] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/E41F17B1-687B-490D-9E27-E6EF9AC2F9D5/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 16:14:44.395 LunchMatcher[11399:63693] {"firstName":"asker","formattedName":"asker ali","headline":"Team Leader (Web development) at NewageSys solutions Plts","id":"po67M2iX8f","industry":"Information Technology and Services","lastName":"ali","pictureUrl":"https://media.licdn.com/mpr/mprx/0_3rnHNj1a855qps2l3-lUNYt-CirZy0pliACBNxi-g6XW_UIAS9QXV0BpuSKQ04jgh1N9U4AnTB_a","pictureUrls":{"_total":1,"values":["https://media.licdn.com/mpr/mprx/0_1SL80bpoU9vKH6bmzuvm06y6y6wKSqwmqDUDJ6SXttoPdzJhngkuU2tdJB2"]},"positions":{"_total":1,"values":[{"company":{"id":147091,"industry":"Pharmaceuticals","name":"NewAgeSys, Inc","size":"201-500 employees","ticker":"","type":"Privately Held"},"id":589051880,"isCurrent":true,"startDate":{"month":6,"year":2011},"summary":"•\tAnalysis & Feasibility study of requirements.\n•\tDesign, & Preparation of Change Specification for requirement.\n•\tPerform business requirements analysis, planning and object model designs.\n•\tImplementation & Unit testing and Integration of  developed codes","title":"Senior Developer with  Team Lead"}]},"siteStandardProfileRequest":{"url":"https://www.linkedin.com/profile/view?id=AAoAABZKTh8BDC7FPsEM4KgbwbbGQ1oIV8U0jMs&authType=name&authToken=zMqk&trk=api*a4272041*s4333271*"}}
+2015-11-11 16:56:22.645 LunchMatcher[13615:75583] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 16:56:22.646 LunchMatcher[13615:75583] Multi-tasking -> Device: YES, App: YES
+2015-11-11 16:56:22.647 LunchMatcher[13615:75583] Unlimited access to network resources
+2015-11-11 16:56:22.768 LunchMatcher[13615:75583] [CDVTimer][keyboard] 0.087023ms
+2015-11-11 16:56:22.845 LunchMatcher[13615:75583] [CDVTimer][socialsharing] 76.545954ms
+2015-11-11 16:56:22.845 LunchMatcher[13615:75583] [CDVTimer][TotalPluginStartup] 77.066958ms
+2015-11-11 16:56:22.866 LunchMatcher[13615:75583] active
+2015-11-11 16:56:22.907 LunchMatcher[13615:75583] Resetting plugins due to page load.
+2015-11-11 16:56:24.836 LunchMatcher[13615:75583] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/1A271D78-A25D-4F85-8EB2-800787B78219/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 16:56:28.662 LunchMatcher[13615:75583] {"firstName":"asker","formattedName":"asker ali","headline":"Team Leader (Web development) at NewageSys solutions Plts","id":"po67M2iX8f","industry":"Information Technology and Services","lastName":"ali","pictureUrl":"https://media.licdn.com/mpr/mprx/0_3rnHNj1a855qps2l3-lUNYt-CirZy0pliACBNxi-g6XW_UIAS9QXV0BpuSKQ04jgh1N9U4AnTB_a","pictureUrls":{"_total":1,"values":["https://media.licdn.com/mpr/mprx/0_1SL80bpoU9vKH6bmzuvm06y6y6wKSqwmqDUDJ6SXttoPdzJhngkuU2tdJB2"]},"positions":{"_total":1,"values":[{"company":{"id":147091,"industry":"Pharmaceuticals","name":"NewAgeSys, Inc","size":"201-500 employees","ticker":"","type":"Privately Held"},"id":589051880,"isCurrent":true,"startDate":{"month":6,"year":2011},"summary":"•\tAnalysis & Feasibility study of requirements.\n•\tDesign, & Preparation of Change Specification for requirement.\n•\tPerform business requirements analysis, planning and object model designs.\n•\tImplementation & Unit testing and Integration of  developed codes","title":"Senior Developer with  Team Lead"}]},"siteStandardProfileRequest":{"url":"https://www.linkedin.com/profile/view?id=AAoAABZKTh8BDC7FPsEM4KgbwbbGQ1oIV8U0jMs&authType=name&authToken=zMqk&trk=api*a4272041*s4333271*"}}
+2015-11-11 16:57:20.495 LunchMatcher[13865:76420] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 16:57:20.496 LunchMatcher[13865:76420] Multi-tasking -> Device: YES, App: YES
+2015-11-11 16:57:20.498 LunchMatcher[13865:76420] Unlimited access to network resources
+2015-11-11 16:57:20.603 LunchMatcher[13865:76420] [CDVTimer][keyboard] 0.086010ms
+2015-11-11 16:57:20.658 LunchMatcher[13865:76420] [CDVTimer][socialsharing] 54.736018ms
+2015-11-11 16:57:20.658 LunchMatcher[13865:76420] [CDVTimer][TotalPluginStartup] 55.297017ms
+2015-11-11 16:57:20.711 LunchMatcher[13865:76420] active
+2015-11-11 16:57:20.752 LunchMatcher[13865:76420] Resetting plugins due to page load.
+2015-11-11 16:57:22.525 LunchMatcher[13865:76420] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/C35AECBD-1150-4C5E-8355-1BA1EE950671/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 16:57:26.409 LunchMatcher[13865:76420] {"firstName":"asker","formattedName":"asker ali","headline":"Team Leader (Web development) at NewageSys solutions Plts","id":"po67M2iX8f","industry":"Information Technology and Services","lastName":"ali","pictureUrl":"https://media.licdn.com/mpr/mprx/0_3rnHNj1a855qps2l3-lUNYt-CirZy0pliACBNxi-g6XW_UIAS9QXV0BpuSKQ04jgh1N9U4AnTB_a","pictureUrls":{"_total":1,"values":["https://media.licdn.com/mpr/mprx/0_1SL80bpoU9vKH6bmzuvm06y6y6wKSqwmqDUDJ6SXttoPdzJhngkuU2tdJB2"]},"positions":{"_total":1,"values":[{"company":{"id":147091,"industry":"Pharmaceuticals","name":"NewAgeSys, Inc","size":"201-500 employees","ticker":"","type":"Privately Held"},"id":589051880,"isCurrent":true,"startDate":{"month":6,"year":2011},"summary":"•\tAnalysis & Feasibility study of requirements.\n•\tDesign, & Preparation of Change Specification for requirement.\n•\tPerform business requirements analysis, planning and object model designs.\n•\tImplementation & Unit testing and Integration of  developed codes","title":"Senior Developer with  Team Lead"}]},"siteStandardProfileRequest":{"url":"https://www.linkedin.com/profile/view?id=AAoAABZKTh8BDC7FPsEM4KgbwbbGQ1oIV8U0jMs&authType=name&authToken=zMqk&trk=api*a4272041*s4333271*"}}
+2015-11-11 17:00:37.617 LunchMatcher[14111:77561] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 17:00:37.618 LunchMatcher[14111:77561] Multi-tasking -> Device: YES, App: YES
+2015-11-11 17:00:37.620 LunchMatcher[14111:77561] Unlimited access to network resources
+2015-11-11 17:00:37.734 LunchMatcher[14111:77561] [CDVTimer][keyboard] 0.097990ms
+2015-11-11 17:00:37.795 LunchMatcher[14111:77561] [CDVTimer][socialsharing] 60.532033ms
+2015-11-11 17:00:37.795 LunchMatcher[14111:77561] [CDVTimer][TotalPluginStartup] 61.083972ms
+2015-11-11 17:00:37.811 LunchMatcher[14111:77561] active
+2015-11-11 17:00:37.866 LunchMatcher[14111:77561] Resetting plugins due to page load.
+2015-11-11 17:00:42.893 LunchMatcher[14111:77561] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/824483B7-3333-404B-85A7-8B9BCCD3A28F/LunchMatcher.app/www/index.html#/home
+2015-11-11 17:03:42.732 LunchMatcher[14359:78638] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 17:03:42.733 LunchMatcher[14359:78638] Multi-tasking -> Device: YES, App: YES
+2015-11-11 17:03:42.735 LunchMatcher[14359:78638] Unlimited access to network resources
+2015-11-11 17:03:42.835 LunchMatcher[14359:78638] [CDVTimer][keyboard] 0.100970ms
+2015-11-11 17:03:42.889 LunchMatcher[14359:78638] [CDVTimer][socialsharing] 53.332031ms
+2015-11-11 17:03:42.889 LunchMatcher[14359:78638] [CDVTimer][TotalPluginStartup] 53.859949ms
+2015-11-11 17:03:42.952 LunchMatcher[14359:78638] active
+2015-11-11 17:03:42.993 LunchMatcher[14359:78638] Resetting plugins due to page load.
+2015-11-11 17:03:45.602 LunchMatcher[14359:78638] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/9D61CE11-691E-421A-8CF9-95AAAD5BC66B/LunchMatcher.app/www/index.html#/home
+2015-11-11 17:03:50.693 LunchMatcher[14359:78638] {"firstName":"asker","formattedName":"asker ali","headline":"Team Leader (Web development) at NewageSys solutions Plts","id":"po67M2iX8f","industry":"Information Technology and Services","lastName":"ali","pictureUrl":"https://media.licdn.com/mpr/mprx/0_3rnHNj1a855qps2l3-lUNYt-CirZy0pliACBNxi-g6XW_UIAS9QXV0BpuSKQ04jgh1N9U4AnTB_a","pictureUrls":{"_total":1,"values":["https://media.licdn.com/mpr/mprx/0_1SL80bpoU9vKH6bmzuvm06y6y6wKSqwmqDUDJ6SXttoPdzJhngkuU2tdJB2"]},"positions":{"_total":1,"values":[{"company":{"id":147091,"industry":"Pharmaceuticals","name":"NewAgeSys, Inc","size":"201-500 employees","ticker":"","type":"Privately Held"},"id":589051880,"isCurrent":true,"startDate":{"month":6,"year":2011},"summary":"•\tAnalysis & Feasibility study of requirements.\n•\tDesign, & Preparation of Change Specification for requirement.\n•\tPerform business requirements analysis, planning and object model designs.\n•\tImplementation & Unit testing and Integration of  developed codes","title":"Senior Developer with  Team Lead"}]},"siteStandardProfileRequest":{"url":"https://www.linkedin.com/profile/view?id=AAoAABZKTh8BDC7FPsEM4KgbwbbGQ1oIV8U0jMs&authType=name&authToken=zMqk&trk=api*a4272041*s4333271*"}}
+2015-11-11 17:05:36.426 LunchMatcher[14607:79669] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 17:05:36.427 LunchMatcher[14607:79669] Multi-tasking -> Device: YES, App: YES
+2015-11-11 17:05:36.436 LunchMatcher[14607:79669] Unlimited access to network resources
+2015-11-11 17:05:36.542 LunchMatcher[14607:79669] [CDVTimer][keyboard] 0.088990ms
+2015-11-11 17:05:36.596 LunchMatcher[14607:79669] [CDVTimer][socialsharing] 54.177999ms
+2015-11-11 17:05:36.596 LunchMatcher[14607:79669] [CDVTimer][TotalPluginStartup] 54.697037ms
+2015-11-11 17:05:36.653 LunchMatcher[14607:79669] active
+2015-11-11 17:05:36.698 LunchMatcher[14607:79669] Resetting plugins due to page load.
+2015-11-11 17:05:38.925 LunchMatcher[14607:79669] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/FB846728-54DC-4931-AA5F-0377C2B2F165/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 17:06:21.230 LunchMatcher[14847:80400] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 17:06:21.231 LunchMatcher[14847:80400] Multi-tasking -> Device: YES, App: YES
+2015-11-11 17:06:21.233 LunchMatcher[14847:80400] Unlimited access to network resources
+2015-11-11 17:06:21.342 LunchMatcher[14847:80400] [CDVTimer][keyboard] 0.065029ms
+2015-11-11 17:06:21.393 LunchMatcher[14847:80400] [CDVTimer][socialsharing] 51.149964ms
+2015-11-11 17:06:21.394 LunchMatcher[14847:80400] [CDVTimer][TotalPluginStartup] 51.622033ms
+2015-11-11 17:06:21.464 LunchMatcher[14847:80400] active
+2015-11-11 17:06:21.503 LunchMatcher[14847:80400] Resetting plugins due to page load.
+2015-11-11 17:06:23.712 LunchMatcher[14847:80400] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/1D0C2644-6EFD-4CB2-9545-365F882848C3/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 17:06:27.171 LunchMatcher[14847:80400] {"firstName":"asker","formattedName":"asker ali","headline":"Team Leader (Web development) at NewageSys solutions Plts","id":"po67M2iX8f","industry":"Information Technology and Services","lastName":"ali","pictureUrl":"https://media.licdn.com/mpr/mprx/0_3rnHNj1a855qps2l3-lUNYt-CirZy0pliACBNxi-g6XW_UIAS9QXV0BpuSKQ04jgh1N9U4AnTB_a","pictureUrls":{"_total":1,"values":["https://media.licdn.com/mpr/mprx/0_1SL80bpoU9vKH6bmzuvm06y6y6wKSqwmqDUDJ6SXttoPdzJhngkuU2tdJB2"]},"positions":{"_total":1,"values":[{"company":{"id":147091,"industry":"Pharmaceuticals","name":"NewAgeSys, Inc","size":"201-500 employees","ticker":"","type":"Privately Held"},"id":589051880,"isCurrent":true,"startDate":{"month":6,"year":2011},"summary":"•\tAnalysis & Feasibility study of requirements.\n•\tDesign, & Preparation of Change Specification for requirement.\n•\tPerform business requirements analysis, planning and object model designs.\n•\tImplementation & Unit testing and Integration of  developed codes","title":"Senior Developer with  Team Lead"}]},"siteStandardProfileRequest":{"url":"https://www.linkedin.com/profile/view?id=AAoAABZKTh8BDC7FPsEM4KgbwbbGQ1oIV8U0jMs&authType=name&authToken=zMqk&trk=api*a4272041*s4333271*"}}
+2015-11-11 17:06:48.287 LunchMatcher[15103:81185] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 17:06:48.288 LunchMatcher[15103:81185] Multi-tasking -> Device: YES, App: YES
+2015-11-11 17:06:48.290 LunchMatcher[15103:81185] Unlimited access to network resources
+2015-11-11 17:06:48.396 LunchMatcher[15103:81185] [CDVTimer][keyboard] 0.063002ms
+2015-11-11 17:06:48.449 LunchMatcher[15103:81185] [CDVTimer][socialsharing] 53.259015ms
+2015-11-11 17:06:48.449 LunchMatcher[15103:81185] [CDVTimer][TotalPluginStartup] 53.745031ms
+2015-11-11 17:06:48.524 LunchMatcher[15103:81185] active
+2015-11-11 17:06:48.565 LunchMatcher[15103:81185] Resetting plugins due to page load.
+2015-11-11 17:06:50.754 LunchMatcher[15103:81185] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/64CEE78B-3862-4240-87CE-A1BD67DE7497/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 17:06:54.848 LunchMatcher[15103:81185] {"firstName":"asker","formattedName":"asker ali","headline":"Team Leader (Web development) at NewageSys solutions Plts","id":"po67M2iX8f","industry":"Information Technology and Services","lastName":"ali","pictureUrl":"https://media.licdn.com/mpr/mprx/0_3rnHNj1a855qps2l3-lUNYt-CirZy0pliACBNxi-g6XW_UIAS9QXV0BpuSKQ04jgh1N9U4AnTB_a","pictureUrls":{"_total":1,"values":["https://media.licdn.com/mpr/mprx/0_1SL80bpoU9vKH6bmzuvm06y6y6wKSqwmqDUDJ6SXttoPdzJhngkuU2tdJB2"]},"positions":{"_total":1,"values":[{"company":{"id":147091,"industry":"Pharmaceuticals","name":"NewAgeSys, Inc","size":"201-500 employees","ticker":"","type":"Privately Held"},"id":589051880,"isCurrent":true,"startDate":{"month":6,"year":2011},"summary":"•\tAnalysis & Feasibility study of requirements.\n•\tDesign, & Preparation of Change Specification for requirement.\n•\tPerform business requirements analysis, planning and object model designs.\n•\tImplementation & Unit testing and Integration of  developed codes","title":"Senior Developer with  Team Lead"}]},"siteStandardProfileRequest":{"url":"https://www.linkedin.com/profile/view?id=AAoAABZKTh8BDC7FPsEM4KgbwbbGQ1oIV8U0jMs&authType=name&authToken=zMqk&trk=api*a4272041*s4333271*"}}
+2015-11-11 17:08:39.052 LunchMatcher[15103:81185] {"firstName":"asker","formattedName":"asker ali","headline":"Team Leader (Web development) at NewageSys solutions Plts","id":"po67M2iX8f","industry":"Information Technology and Services","lastName":"ali","pictureUrl":"https://media.licdn.com/mpr/mprx/0_3rnHNj1a855qps2l3-lUNYt-CirZy0pliACBNxi-g6XW_UIAS9QXV0BpuSKQ04jgh1N9U4AnTB_a","pictureUrls":{"_total":1,"values":["https://media.licdn.com/mpr/mprx/0_1SL80bpoU9vKH6bmzuvm06y6y6wKSqwmqDUDJ6SXttoPdzJhngkuU2tdJB2"]},"positions":{"_total":1,"values":[{"company":{"id":147091,"industry":"Pharmaceuticals","name":"NewAgeSys, Inc","size":"201-500 employees","ticker":"","type":"Privately Held"},"id":589051880,"isCurrent":true,"startDate":{"month":6,"year":2011},"summary":"•\tAnalysis & Feasibility study of requirements.\n•\tDesign, & Preparation of Change Specification for requirement.\n•\tPerform business requirements analysis, planning and object model designs.\n•\tImplementation & Unit testing and Integration of  developed codes","title":"Senior Developer with  Team Lead"}]},"siteStandardProfileRequest":{"url":"https://www.linkedin.com/profile/view?id=AAoAABZKTh8BDC7FPsEM4KgbwbbGQ1oIV8U0jMs&authType=name&authToken=zMqk&trk=api*a4272041*s4333271*"}}
+2015-11-11 17:09:18.345 LunchMatcher[15355:82356] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 17:09:18.345 LunchMatcher[15355:82356] Multi-tasking -> Device: YES, App: YES
+2015-11-11 17:09:18.347 LunchMatcher[15355:82356] Unlimited access to network resources
+2015-11-11 17:09:18.456 LunchMatcher[15355:82356] [CDVTimer][keyboard] 0.091970ms
+2015-11-11 17:09:18.504 LunchMatcher[15355:82356] [CDVTimer][socialsharing] 47.315001ms
+2015-11-11 17:09:18.504 LunchMatcher[15355:82356] [CDVTimer][TotalPluginStartup] 47.800958ms
+2015-11-11 17:09:18.511 LunchMatcher[15355:82356] active
+2015-11-11 17:09:18.552 LunchMatcher[15355:82356] Resetting plugins due to page load.
+2015-11-11 17:10:09.715 LunchMatcher[15601:83104] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 17:10:09.716 LunchMatcher[15601:83104] Multi-tasking -> Device: YES, App: YES
+2015-11-11 17:10:09.718 LunchMatcher[15601:83104] Unlimited access to network resources
+2015-11-11 17:10:09.829 LunchMatcher[15601:83104] [CDVTimer][keyboard] 0.086010ms
+2015-11-11 17:10:09.882 LunchMatcher[15601:83104] [CDVTimer][socialsharing] 52.460968ms
+2015-11-11 17:10:09.882 LunchMatcher[15601:83104] [CDVTimer][TotalPluginStartup] 52.959979ms
+2015-11-11 17:10:09.955 LunchMatcher[15601:83104] active
+2015-11-11 17:10:10.000 LunchMatcher[15601:83104] Resetting plugins due to page load.
+2015-11-11 17:10:12.240 LunchMatcher[15601:83104] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/2081018A-E3E4-402E-B203-37D1CEDCE355/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 17:11:05.542 LunchMatcher[15601:83104] {"firstName":"asker","formattedName":"asker ali","headline":"Team Leader (Web development) at NewageSys solutions Plts","id":"po67M2iX8f","industry":"Information Technology and Services","lastName":"ali","pictureUrl":"https://media.licdn.com/mpr/mprx/0_3rnHNj1a855qps2l3-lUNYt-CirZy0pliACBNxi-g6XW_UIAS9QXV0BpuSKQ04jgh1N9U4AnTB_a","pictureUrls":{"_total":1,"values":["https://media.licdn.com/mpr/mprx/0_1SL80bpoU9vKH6bmzuvm06y6y6wKSqwmqDUDJ6SXttoPdzJhngkuU2tdJB2"]},"positions":{"_total":1,"values":[{"company":{"id":147091,"industry":"Pharmaceuticals","name":"NewAgeSys, Inc","size":"201-500 employees","ticker":"","type":"Privately Held"},"id":589051880,"isCurrent":true,"startDate":{"month":6,"year":2011},"summary":"•\tAnalysis & Feasibility study of requirements.\n•\tDesign, & Preparation of Change Specification for requirement.\n•\tPerform business requirements analysis, planning and object model designs.\n•\tImplementation & Unit testing and Integration of  developed codes","title":"Senior Developer with  Team Lead"}]},"siteStandardProfileRequest":{"url":"https://www.linkedin.com/profile/view?id=AAoAABZKTh8BDC7FPsEM4KgbwbbGQ1oIV8U0jMs&authType=name&authToken=zMqk&trk=api*a4272041*s4333271*"}}
+2015-11-11 17:11:57.053 LunchMatcher[15855:84151] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 17:11:57.054 LunchMatcher[15855:84151] Multi-tasking -> Device: YES, App: YES
+2015-11-11 17:11:57.055 LunchMatcher[15855:84151] Unlimited access to network resources
+2015-11-11 17:11:57.160 LunchMatcher[15855:84151] [CDVTimer][keyboard] 0.066042ms
+2015-11-11 17:11:57.213 LunchMatcher[15855:84151] [CDVTimer][socialsharing] 52.351952ms
+2015-11-11 17:11:57.213 LunchMatcher[15855:84151] [CDVTimer][TotalPluginStartup] 52.779973ms
+2015-11-11 17:11:57.273 LunchMatcher[15855:84151] active
+2015-11-11 17:11:57.315 LunchMatcher[15855:84151] Resetting plugins due to page load.
+2015-11-11 17:11:59.341 LunchMatcher[15855:84151] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/75E7713F-A4CC-420E-9E99-F62666F9C5DD/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 17:12:41.417 LunchMatcher[15855:84151] {"firstName":"asker","formattedName":"asker ali","headline":"Team Leader (Web development) at NewageSys solutions Plts","id":"po67M2iX8f","industry":"Information Technology and Services","lastName":"ali","pictureUrl":"https://media.licdn.com/mpr/mprx/0_3rnHNj1a855qps2l3-lUNYt-CirZy0pliACBNxi-g6XW_UIAS9QXV0BpuSKQ04jgh1N9U4AnTB_a","pictureUrls":{"_total":1,"values":["https://media.licdn.com/mpr/mprx/0_1SL80bpoU9vKH6bmzuvm06y6y6wKSqwmqDUDJ6SXttoPdzJhngkuU2tdJB2"]},"positions":{"_total":1,"values":[{"company":{"id":147091,"industry":"Pharmaceuticals","name":"NewAgeSys, Inc","size":"201-500 employees","ticker":"","type":"Privately Held"},"id":589051880,"isCurrent":true,"startDate":{"month":6,"year":2011},"summary":"•\tAnalysis & Feasibility study of requirements.\n•\tDesign, & Preparation of Change Specification for requirement.\n•\tPerform business requirements analysis, planning and object model designs.\n•\tImplementation & Unit testing and Integration of  developed codes","title":"Senior Developer with  Team Lead"}]},"siteStandardProfileRequest":{"url":"https://www.linkedin.com/profile/view?id=AAoAABZKTh8BDC7FPsEM4KgbwbbGQ1oIV8U0jMs&authType=name&authToken=zMqk&trk=api*a4272041*s4333271*"}}
+2015-11-11 17:15:22.936 LunchMatcher[16103:85610] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 17:15:22.937 LunchMatcher[16103:85610] Multi-tasking -> Device: YES, App: YES
+2015-11-11 17:15:22.939 LunchMatcher[16103:85610] Unlimited access to network resources
+2015-11-11 17:15:23.042 LunchMatcher[16103:85610] [CDVTimer][keyboard] 0.109017ms
+2015-11-11 17:15:23.099 LunchMatcher[16103:85610] [CDVTimer][socialsharing] 56.795001ms
+2015-11-11 17:15:23.099 LunchMatcher[16103:85610] [CDVTimer][TotalPluginStartup] 57.421029ms
+2015-11-11 17:15:23.144 LunchMatcher[16103:85610] active
+2015-11-11 17:15:23.187 LunchMatcher[16103:85610] Resetting plugins due to page load.
+2015-11-11 17:15:25.623 LunchMatcher[16103:85610] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/08E70D0A-BB36-4B6C-8F52-FE6C40C42B45/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 17:16:23.402 LunchMatcher[16339:86423] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 17:16:23.403 LunchMatcher[16339:86423] Multi-tasking -> Device: YES, App: YES
+2015-11-11 17:16:23.405 LunchMatcher[16339:86423] Unlimited access to network resources
+2015-11-11 17:16:23.567 LunchMatcher[16339:86423] [CDVTimer][keyboard] 0.066996ms
+2015-11-11 17:16:23.630 LunchMatcher[16339:86423] [CDVTimer][socialsharing] 62.772989ms
+2015-11-11 17:16:23.630 LunchMatcher[16339:86423] [CDVTimer][TotalPluginStartup] 63.269019ms
+2015-11-11 17:16:23.642 LunchMatcher[16339:86423] active
+2015-11-11 17:16:23.745 LunchMatcher[16339:86423] Resetting plugins due to page load.
+2015-11-11 17:16:26.056 LunchMatcher[16339:86423] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/2D956D9A-FFB3-405A-A82C-B6159850D3D9/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 17:17:03.256 LunchMatcher[16591:87203] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 17:17:03.257 LunchMatcher[16591:87203] Multi-tasking -> Device: YES, App: YES
+2015-11-11 17:17:03.259 LunchMatcher[16591:87203] Unlimited access to network resources
+2015-11-11 17:17:03.362 LunchMatcher[16591:87203] [CDVTimer][keyboard] 0.099003ms
+2015-11-11 17:17:03.419 LunchMatcher[16591:87203] [CDVTimer][socialsharing] 56.769013ms
+2015-11-11 17:17:03.420 LunchMatcher[16591:87203] [CDVTimer][TotalPluginStartup] 57.368040ms
+2015-11-11 17:17:03.497 LunchMatcher[16591:87203] active
+2015-11-11 17:17:03.536 LunchMatcher[16591:87203] Resetting plugins due to page load.
+2015-11-11 17:17:11.806 LunchMatcher[16591:87203] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/B09C0CF3-8557-4EC5-98D6-36A2D984ABA3/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 17:19:05.335 LunchMatcher[16841:88406] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 17:19:05.336 LunchMatcher[16841:88406] Multi-tasking -> Device: YES, App: YES
+2015-11-11 17:19:05.344 LunchMatcher[16841:88406] Unlimited access to network resources
+2015-11-11 17:19:05.448 LunchMatcher[16841:88406] [CDVTimer][keyboard] 0.092983ms
+2015-11-11 17:19:05.499 LunchMatcher[16841:88406] [CDVTimer][socialsharing] 50.556958ms
+2015-11-11 17:19:05.499 LunchMatcher[16841:88406] [CDVTimer][TotalPluginStartup] 51.106036ms
+2015-11-11 17:19:05.575 LunchMatcher[16841:88406] active
+2015-11-11 17:19:05.622 LunchMatcher[16841:88406] Resetting plugins due to page load.
+2015-11-11 17:19:07.324 LunchMatcher[16841:88406] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/ACEC6CEF-4687-4CA8-97A1-83F169FF2594/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 17:20:33.990 LunchMatcher[17087:89372] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 17:20:33.991 LunchMatcher[17087:89372] Multi-tasking -> Device: YES, App: YES
+2015-11-11 17:20:33.994 LunchMatcher[17087:89372] Unlimited access to network resources
+2015-11-11 17:20:34.101 LunchMatcher[17087:89372] [CDVTimer][keyboard] 0.090957ms
+2015-11-11 17:20:34.154 LunchMatcher[17087:89372] [CDVTimer][socialsharing] 53.532004ms
+2015-11-11 17:20:34.155 LunchMatcher[17087:89372] [CDVTimer][TotalPluginStartup] 54.100990ms
+2015-11-11 17:20:34.222 LunchMatcher[17087:89372] active
+2015-11-11 17:20:34.267 LunchMatcher[17087:89372] Resetting plugins due to page load.
+2015-11-11 17:20:35.441 LunchMatcher[17087:89372] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/76930D17-C0F4-46E6-B67D-81D713059A2A/LunchMatcher.app/www/index.html#/home
+2015-11-11 17:21:46.853 LunchMatcher[17331:90268] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 17:21:46.854 LunchMatcher[17331:90268] Multi-tasking -> Device: YES, App: YES
+2015-11-11 17:21:46.856 LunchMatcher[17331:90268] Unlimited access to network resources
+2015-11-11 17:21:46.966 LunchMatcher[17331:90268] [CDVTimer][keyboard] 0.091970ms
+2015-11-11 17:21:47.021 LunchMatcher[17331:90268] [CDVTimer][socialsharing] 54.077983ms
+2015-11-11 17:21:47.021 LunchMatcher[17331:90268] [CDVTimer][TotalPluginStartup] 54.660976ms
+2015-11-11 17:21:47.080 LunchMatcher[17331:90268] active
+2015-11-11 17:21:47.122 LunchMatcher[17331:90268] Resetting plugins due to page load.
+2015-11-11 17:21:47.827 LunchMatcher[17331:90268] WARN: $ionicViewService is deprecated, please use $ionicHistory instead: http://ionicframework.com/docs/nightly/api/service/$ionicHistory/
+2015-11-11 17:21:47.827 LunchMatcher[17331:90268] WARN: $ionicViewService.nextViewOptions is deprecated, please use $ionicHistory.nextViewOptions instead: http://ionicframework.com/docs/nightly/api/service/$ionicHistory/
+2015-11-11 17:21:48.369 LunchMatcher[17331:90268] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/86673384-6CC5-461B-AA19-D0F5CFC8FF03/LunchMatcher.app/www/index.html#/home
+2015-11-11 17:21:50.577 LunchMatcher[17331:90268] WARN: $ionicViewService.nextViewOptions is deprecated, please use $ionicHistory.nextViewOptions instead: http://ionicframework.com/docs/nightly/api/service/$ionicHistory/
+2015-11-11 17:23:47.676 LunchMatcher[17583:91325] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 17:23:47.677 LunchMatcher[17583:91325] Multi-tasking -> Device: YES, App: YES
+2015-11-11 17:23:47.679 LunchMatcher[17583:91325] Unlimited access to network resources
+2015-11-11 17:23:47.784 LunchMatcher[17583:91325] [CDVTimer][keyboard] 0.064015ms
+2015-11-11 17:23:47.836 LunchMatcher[17583:91325] [CDVTimer][socialsharing] 51.810980ms
+2015-11-11 17:23:47.836 LunchMatcher[17583:91325] [CDVTimer][TotalPluginStartup] 52.289009ms
+2015-11-11 17:23:47.915 LunchMatcher[17583:91325] active
+2015-11-11 17:23:47.957 LunchMatcher[17583:91325] Resetting plugins due to page load.
+2015-11-11 17:23:50.029 LunchMatcher[17583:91325] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/2F544D05-2307-4E78-82C7-AFB69F55128B/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 17:24:15.811 LunchMatcher[17583:91325] Can't find keyplane that supports type 5 for keyboard iPhone-PortraitChoco-PhonePad; using 3760611571_PortraitChoco_iPhone-Complex-Pad_Default
+2015-11-11 17:24:17.586 LunchMatcher[17829:91986] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 17:24:17.587 LunchMatcher[17829:91986] Multi-tasking -> Device: YES, App: YES
+2015-11-11 17:24:17.599 LunchMatcher[17829:91986] Unlimited access to network resources
+2015-11-11 17:24:17.706 LunchMatcher[17829:91986] [CDVTimer][keyboard] 0.129998ms
+2015-11-11 17:24:17.763 LunchMatcher[17829:91986] [CDVTimer][socialsharing] 55.976987ms
+2015-11-11 17:24:17.763 LunchMatcher[17829:91986] [CDVTimer][TotalPluginStartup] 56.681991ms
+2015-11-11 17:24:17.805 LunchMatcher[17829:91986] active
+2015-11-11 17:24:17.846 LunchMatcher[17829:91986] Resetting plugins due to page load.
+2015-11-11 17:24:19.985 LunchMatcher[17829:91986] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/48DA8A48-0B18-49F5-B147-477D8FE2E630/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 17:25:05.997 LunchMatcher[18081:92820] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 17:25:05.998 LunchMatcher[18081:92820] Multi-tasking -> Device: YES, App: YES
+2015-11-11 17:25:06.008 LunchMatcher[18081:92820] Unlimited access to network resources
+2015-11-11 17:25:06.107 LunchMatcher[18081:92820] [CDVTimer][keyboard] 0.068009ms
+2015-11-11 17:25:06.145 LunchMatcher[18081:92820] [CDVTimer][socialsharing] 37.378967ms
+2015-11-11 17:25:06.145 LunchMatcher[18081:92820] [CDVTimer][TotalPluginStartup] 37.822962ms
+2015-11-11 17:25:06.153 LunchMatcher[18081:92820] active
+2015-11-11 17:25:06.192 LunchMatcher[18081:92820] Resetting plugins due to page load.
+2015-11-11 17:25:07.521 LunchMatcher[18081:92820] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/25CDC0BC-C1B9-4C28-93B6-4326E8F2544F/LunchMatcher.app/www/index.html#/home
+2015-11-11 17:25:52.932 LunchMatcher[18335:93680] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 17:25:52.933 LunchMatcher[18335:93680] Multi-tasking -> Device: YES, App: YES
+2015-11-11 17:25:52.935 LunchMatcher[18335:93680] Unlimited access to network resources
+2015-11-11 17:25:53.041 LunchMatcher[18335:93680] [CDVTimer][keyboard] 0.082016ms
+2015-11-11 17:25:53.093 LunchMatcher[18335:93680] [CDVTimer][socialsharing] 52.033007ms
+2015-11-11 17:25:53.093 LunchMatcher[18335:93680] [CDVTimer][TotalPluginStartup] 52.594006ms
+2015-11-11 17:25:53.156 LunchMatcher[18335:93680] active
+2015-11-11 17:25:53.201 LunchMatcher[18335:93680] Resetting plugins due to page load.
+2015-11-11 17:25:54.383 LunchMatcher[18335:93680] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/336531D2-422E-455B-9C58-11A064B4760B/LunchMatcher.app/www/index.html#/home
+2015-11-11 17:26:40.504 LunchMatcher[18581:94477] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 17:26:40.505 LunchMatcher[18581:94477] Multi-tasking -> Device: YES, App: YES
+2015-11-11 17:26:40.516 LunchMatcher[18581:94477] Unlimited access to network resources
+2015-11-11 17:26:40.622 LunchMatcher[18581:94477] [CDVTimer][keyboard] 0.064969ms
+2015-11-11 17:26:40.673 LunchMatcher[18581:94477] [CDVTimer][socialsharing] 50.538003ms
+2015-11-11 17:26:40.673 LunchMatcher[18581:94477] [CDVTimer][TotalPluginStartup] 51.042020ms
+2015-11-11 17:26:40.714 LunchMatcher[18581:94477] active
+2015-11-11 17:26:40.761 LunchMatcher[18581:94477] Resetting plugins due to page load.
+2015-11-11 17:26:41.978 LunchMatcher[18581:94477] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/068086F3-43FF-412E-ACC9-552DEF557385/LunchMatcher.app/www/index.html#/home
+2015-11-11 17:28:13.164 LunchMatcher[18829:95405] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 17:28:13.165 LunchMatcher[18829:95405] Multi-tasking -> Device: YES, App: YES
+2015-11-11 17:28:13.173 LunchMatcher[18829:95405] Unlimited access to network resources
+2015-11-11 17:28:13.281 LunchMatcher[18829:95405] [CDVTimer][keyboard] 0.088036ms
+2015-11-11 17:28:13.334 LunchMatcher[18829:95405] [CDVTimer][socialsharing] 53.301036ms
+2015-11-11 17:28:13.335 LunchMatcher[18829:95405] [CDVTimer][TotalPluginStartup] 53.924024ms
+2015-11-11 17:28:13.381 LunchMatcher[18829:95405] active
+2015-11-11 17:28:13.424 LunchMatcher[18829:95405] Resetting plugins due to page load.
+2015-11-11 17:28:14.675 LunchMatcher[18829:95405] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/600AD813-47FB-4021-9773-E3D4225F5D4F/LunchMatcher.app/www/index.html#/home
+2015-11-11 17:30:27.258 LunchMatcher[19086:96571] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 17:30:27.258 LunchMatcher[19086:96571] Multi-tasking -> Device: YES, App: YES
+2015-11-11 17:30:27.267 LunchMatcher[19086:96571] Unlimited access to network resources
+2015-11-11 17:30:27.374 LunchMatcher[19086:96571] [CDVTimer][keyboard] 0.064015ms
+2015-11-11 17:30:27.426 LunchMatcher[19086:96571] [CDVTimer][socialsharing] 51.292002ms
+2015-11-11 17:30:27.426 LunchMatcher[19086:96571] [CDVTimer][TotalPluginStartup] 51.777005ms
+2015-11-11 17:30:27.482 LunchMatcher[19086:96571] active
+2015-11-11 17:30:27.523 LunchMatcher[19086:96571] Resetting plugins due to page load.
+2015-11-11 17:30:28.854 LunchMatcher[19086:96571] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/55932A45-366D-4867-95BB-D3AD2DE7E6D6/LunchMatcher.app/www/index.html#/home
+2015-11-11 17:31:25.069 LunchMatcher[19338:97445] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 17:31:25.070 LunchMatcher[19338:97445] Multi-tasking -> Device: YES, App: YES
+2015-11-11 17:31:25.073 LunchMatcher[19338:97445] Unlimited access to network resources
+2015-11-11 17:31:25.177 LunchMatcher[19338:97445] [CDVTimer][keyboard] 0.066996ms
+2015-11-11 17:31:25.233 LunchMatcher[19338:97445] [CDVTimer][socialsharing] 55.552006ms
+2015-11-11 17:31:25.233 LunchMatcher[19338:97445] [CDVTimer][TotalPluginStartup] 55.970013ms
+2015-11-11 17:31:25.323 LunchMatcher[19338:97445] active
+2015-11-11 17:31:25.364 LunchMatcher[19338:97445] Resetting plugins due to page load.
+2015-11-11 17:32:20.435 LunchMatcher[19587:98262] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 17:32:20.436 LunchMatcher[19587:98262] Multi-tasking -> Device: YES, App: YES
+2015-11-11 17:32:20.440 LunchMatcher[19587:98262] Unlimited access to network resources
+2015-11-11 17:32:20.543 LunchMatcher[19587:98262] [CDVTimer][keyboard] 0.065029ms
+2015-11-11 17:32:20.595 LunchMatcher[19587:98262] [CDVTimer][socialsharing] 52.487016ms
+2015-11-11 17:32:20.595 LunchMatcher[19587:98262] [CDVTimer][TotalPluginStartup] 52.923024ms
+2015-11-11 17:32:20.657 LunchMatcher[19587:98262] active
+2015-11-11 17:32:20.698 LunchMatcher[19587:98262] Resetting plugins due to page load.
+2015-11-11 17:32:24.134 LunchMatcher[19587:98262] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/31D3160A-6842-4370-831D-CF13A79384E6/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 17:32:32.287 LunchMatcher[19587:98262] Can't find keyplane that supports type 5 for keyboard iPhone-PortraitChoco-PhonePad; using 3760611571_PortraitChoco_iPhone-Complex-Pad_Default
+2015-11-11 17:32:39.845 LunchMatcher[19587:98262] Can't find keyplane that supports type 5 for keyboard iPhone-PortraitChoco-PhonePad; using 3760611571_PortraitChoco_iPhone-Complex-Pad_Default
+2015-11-11 17:32:43.639 LunchMatcher[19587:98262] {"firstName":"asker","formattedName":"asker ali","headline":"Team Leader (Web development) at NewageSys solutions Plts","id":"po67M2iX8f","industry":"Information Technology and Services","lastName":"ali","pictureUrl":"https://media.licdn.com/mpr/mprx/0_3rnHNj1a855qps2l3-lUNYt-CirZy0pliACBNxi-g6XW_UIAS9QXV0BpuSKQ04jgh1N9U4AnTB_a","pictureUrls":{"_total":1,"values":["https://media.licdn.com/mpr/mprx/0_1SL80bpoU9vKH6bmzuvm06y6y6wKSqwmqDUDJ6SXttoPdzJhngkuU2tdJB2"]},"positions":{"_total":1,"values":[{"company":{"id":147091,"industry":"Pharmaceuticals","name":"NewAgeSys, Inc","size":"201-500 employees","ticker":"","type":"Privately Held"},"id":589051880,"isCurrent":true,"startDate":{"month":6,"year":2011},"summary":"•\tAnalysis & Feasibility study of requirements.\n•\tDesign, & Preparation of Change Specification for requirement.\n•\tPerform business requirements analysis, planning and object model designs.\n•\tImplementation & Unit testing and Integration of  developed codes","title":"Senior Developer with  Team Lead"}]},"siteStandardProfileRequest":{"url":"https://www.linkedin.com/profile/view?id=AAoAABZKTh8BDC7FPsEM4KgbwbbGQ1oIV8U0jMs&authType=name&authToken=zMqk&trk=api*a4272041*s4333271*"}}
+2015-11-11 17:42:33.258 LunchMatcher[19830:100329] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 17:42:33.259 LunchMatcher[19830:100329] Multi-tasking -> Device: YES, App: YES
+2015-11-11 17:42:33.267 LunchMatcher[19830:100329] Unlimited access to network resources
+2015-11-11 17:42:33.373 LunchMatcher[19830:100329] [CDVTimer][keyboard] 0.095963ms
+2015-11-11 17:42:33.430 LunchMatcher[19830:100329] [CDVTimer][socialsharing] 56.706011ms
+2015-11-11 17:42:33.430 LunchMatcher[19830:100329] [CDVTimer][TotalPluginStartup] 57.285011ms
+2015-11-11 17:42:33.488 LunchMatcher[19830:100329] active
+2015-11-11 17:42:33.530 LunchMatcher[19830:100329] Resetting plugins due to page load.
+2015-11-11 17:42:35.692 LunchMatcher[19830:100329] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/2E85C8EA-1D52-4828-A3F1-4388AB2366DB/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 17:43:21.310 LunchMatcher[20081:101204] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 17:43:21.311 LunchMatcher[20081:101204] Multi-tasking -> Device: YES, App: YES
+2015-11-11 17:43:21.317 LunchMatcher[20081:101204] Unlimited access to network resources
+2015-11-11 17:43:21.422 LunchMatcher[20081:101204] [CDVTimer][keyboard] 0.082016ms
+2015-11-11 17:43:21.472 LunchMatcher[20081:101204] [CDVTimer][socialsharing] 49.777031ms
+2015-11-11 17:43:21.472 LunchMatcher[20081:101204] [CDVTimer][TotalPluginStartup] 50.237000ms
+2015-11-11 17:43:21.530 LunchMatcher[20081:101204] active
+2015-11-11 17:43:21.571 LunchMatcher[20081:101204] Resetting plugins due to page load.
+2015-11-11 17:43:23.544 LunchMatcher[20081:101204] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/7CC1A1A3-9EB9-4B76-92E9-F1F881457D22/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 17:43:50.809 LunchMatcher[20325:101880] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 17:43:50.810 LunchMatcher[20325:101880] Multi-tasking -> Device: YES, App: YES
+2015-11-11 17:43:50.812 LunchMatcher[20325:101880] Unlimited access to network resources
+2015-11-11 17:43:50.918 LunchMatcher[20325:101880] [CDVTimer][keyboard] 0.064015ms
+2015-11-11 17:43:50.972 LunchMatcher[20325:101880] [CDVTimer][socialsharing] 52.985013ms
+2015-11-11 17:43:50.972 LunchMatcher[20325:101880] [CDVTimer][TotalPluginStartup] 53.503036ms
+2015-11-11 17:43:51.017 LunchMatcher[20325:101880] active
+2015-11-11 17:43:51.058 LunchMatcher[20325:101880] Resetting plugins due to page load.
+2015-11-11 17:43:52.977 LunchMatcher[20325:101880] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/103ECDD3-3106-4890-A3EA-AB88E3FC1930/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 17:46:38.390 LunchMatcher[20571:103022] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 17:46:38.391 LunchMatcher[20571:103022] Multi-tasking -> Device: YES, App: YES
+2015-11-11 17:46:38.393 LunchMatcher[20571:103022] Unlimited access to network resources
+2015-11-11 17:46:38.497 LunchMatcher[20571:103022] [CDVTimer][keyboard] 0.083983ms
+2015-11-11 17:46:38.549 LunchMatcher[20571:103022] [CDVTimer][socialsharing] 52.437007ms
+2015-11-11 17:46:38.550 LunchMatcher[20571:103022] [CDVTimer][TotalPluginStartup] 53.004026ms
+2015-11-11 17:46:38.630 LunchMatcher[20571:103022] active
+2015-11-11 17:46:38.671 LunchMatcher[20571:103022] Resetting plugins due to page load.
+2015-11-11 17:46:40.051 LunchMatcher[20571:103022] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/16DCA6FE-53AC-44E3-BEA7-B1384465D483/LunchMatcher.app/www/index.html#/home
+2015-11-11 17:46:43.917 LunchMatcher[20571:103022] {"firstName":"asker","formattedName":"asker ali","headline":"Team Leader (Web development) at NewageSys solutions Plts","id":"po67M2iX8f","industry":"Information Technology and Services","lastName":"ali","pictureUrl":"https://media.licdn.com/mpr/mprx/0_3rnHNj1a855qps2l3-lUNYt-CirZy0pliACBNxi-g6XW_UIAS9QXV0BpuSKQ04jgh1N9U4AnTB_a","pictureUrls":{"_total":1,"values":["https://media.licdn.com/mpr/mprx/0_1SL80bpoU9vKH6bmzuvm06y6y6wKSqwmqDUDJ6SXttoPdzJhngkuU2tdJB2"]},"positions":{"_total":1,"values":[{"company":{"id":147091,"industry":"Pharmaceuticals","name":"NewAgeSys, Inc","size":"201-500 employees","ticker":"","type":"Privately Held"},"id":589051880,"isCurrent":true,"startDate":{"month":6,"year":2011},"summary":"•\tAnalysis & Feasibility study of requirements.\n•\tDesign, & Preparation of Change Specification for requirement.\n•\tPerform business requirements analysis, planning and object model designs.\n•\tImplementation & Unit testing and Integration of  developed codes","title":"Senior Developer with  Team Lead"}]},"siteStandardProfileRequest":{"url":"https://www.linkedin.com/profile/view?id=AAoAABZKTh8BDC7FPsEM4KgbwbbGQ1oIV8U0jMs&authType=name&authToken=zMqk&trk=api*a4272041*s4333271*"}}
+2015-11-11 17:47:11.430 LunchMatcher[20813:103730] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 17:47:11.431 LunchMatcher[20813:103730] Multi-tasking -> Device: YES, App: YES
+2015-11-11 17:47:11.433 LunchMatcher[20813:103730] Unlimited access to network resources
+2015-11-11 17:47:11.535 LunchMatcher[20813:103730] [CDVTimer][keyboard] 0.068009ms
+2015-11-11 17:47:11.589 LunchMatcher[20813:103730] [CDVTimer][socialsharing] 53.714037ms
+2015-11-11 17:47:11.589 LunchMatcher[20813:103730] [CDVTimer][TotalPluginStartup] 54.174006ms
+2015-11-11 17:47:11.639 LunchMatcher[20813:103730] active
+2015-11-11 17:47:11.678 LunchMatcher[20813:103730] Resetting plugins due to page load.
+2015-11-11 17:47:15.728 LunchMatcher[20813:103730] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/B6B9CD4D-3A71-416B-B944-8B0D009DAEC8/LunchMatcher.app/www/index.html#/app/registration
+2015-11-11 17:47:40.632 LunchMatcher[20813:103730] Can't find keyplane that supports type 5 for keyboard iPhone-PortraitChoco-PhonePad; using 3760611571_PortraitChoco_iPhone-Complex-Pad_Default
+2015-11-11 17:47:50.557 LunchMatcher[20813:103730] {"firstName":"asker","formattedName":"asker ali","headline":"Team Leader (Web development) at NewageSys solutions Plts","id":"po67M2iX8f","industry":"Information Technology and Services","lastName":"ali","pictureUrl":"https://media.licdn.com/mpr/mprx/0_3rnHNj1a855qps2l3-lUNYt-CirZy0pliACBNxi-g6XW_UIAS9QXV0BpuSKQ04jgh1N9U4AnTB_a","pictureUrls":{"_total":1,"values":["https://media.licdn.com/mpr/mprx/0_1SL80bpoU9vKH6bmzuvm06y6y6wKSqwmqDUDJ6SXttoPdzJhngkuU2tdJB2"]},"positions":{"_total":1,"values":[{"company":{"id":147091,"industry":"Pharmaceuticals","name":"NewAgeSys, Inc","size":"201-500 employees","ticker":"","type":"Privately Held"},"id":589051880,"isCurrent":true,"startDate":{"month":6,"year":2011},"summary":"•\tAnalysis & Feasibility study of requirements.\n•\tDesign, & Preparation of Change Specification for requirement.\n•\tPerform business requirements analysis, planning and object model designs.\n•\tImplementation & Unit testing and Integration of  developed codes","title":"Senior Developer with  Team Lead"}]},"siteStandardProfileRequest":{"url":"https://www.linkedin.com/profile/view?id=AAoAABZKTh8BDC7FPsEM4KgbwbbGQ1oIV8U0jMs&authType=name&authToken=zMqk&trk=api*a4272041*s4333271*"}}
+2015-11-11 17:48:32.427 LunchMatcher[21061:104621] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 17:48:32.427 LunchMatcher[21061:104621] Multi-tasking -> Device: YES, App: YES
+2015-11-11 17:48:32.434 LunchMatcher[21061:104621] Unlimited access to network resources
+2015-11-11 17:48:32.535 LunchMatcher[21061:104621] [CDVTimer][keyboard] 0.084996ms
+2015-11-11 17:48:32.589 LunchMatcher[21061:104621] [CDVTimer][socialsharing] 53.068042ms
+2015-11-11 17:48:32.589 LunchMatcher[21061:104621] [CDVTimer][TotalPluginStartup] 53.676009ms
+2015-11-11 17:48:32.649 LunchMatcher[21061:104621] active
+2015-11-11 17:48:32.695 LunchMatcher[21061:104621] Resetting plugins due to page load.
+2015-11-11 17:48:34.633 LunchMatcher[21061:104621] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/7908D58E-CE56-4CB7-A3DF-77ECF8585D48/LunchMatcher.app/www/index.html#/app/availability
+2015-11-11 17:48:49.535 LunchMatcher[21061:104642] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-11-11 17:50:12.578 LunchMatcher[21307:105614] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 17:50:12.579 LunchMatcher[21307:105614] Multi-tasking -> Device: YES, App: YES
+2015-11-11 17:50:12.581 LunchMatcher[21307:105614] Unlimited access to network resources
+2015-11-11 17:50:12.689 LunchMatcher[21307:105614] [CDVTimer][keyboard] 0.088990ms
+2015-11-11 17:50:12.741 LunchMatcher[21307:105614] [CDVTimer][socialsharing] 51.454008ms
+2015-11-11 17:50:12.741 LunchMatcher[21307:105614] [CDVTimer][TotalPluginStartup] 51.961005ms
+2015-11-11 17:50:12.796 LunchMatcher[21307:105614] active
+2015-11-11 17:50:12.836 LunchMatcher[21307:105614] Resetting plugins due to page load.
+2015-11-11 17:50:14.581 LunchMatcher[21307:105614] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/076ECBD0-B8F9-411A-87C3-2CA71D43244B/LunchMatcher.app/www/index.html#/home
+2015-11-11 17:50:49.782 LunchMatcher[21307:105614] {"firstName":"asker","formattedName":"asker ali","headline":"Team Leader (Web development) at NewageSys solutions Plts","id":"po67M2iX8f","industry":"Information Technology and Services","lastName":"ali","pictureUrl":"https://media.licdn.com/mpr/mprx/0_3rnHNj1a855qps2l3-lUNYt-CirZy0pliACBNxi-g6XW_UIAS9QXV0BpuSKQ04jgh1N9U4AnTB_a","pictureUrls":{"_total":1,"values":["https://media.licdn.com/mpr/mprx/0_1SL80bpoU9vKH6bmzuvm06y6y6wKSqwmqDUDJ6SXttoPdzJhngkuU2tdJB2"]},"positions":{"_total":1,"values":[{"company":{"id":147091,"industry":"Pharmaceuticals","name":"NewAgeSys, Inc","size":"201-500 employees","ticker":"","type":"Privately Held"},"id":589051880,"isCurrent":true,"startDate":{"month":6,"year":2011},"summary":"•\tAnalysis & Feasibility study of requirements.\n•\tDesign, & Preparation of Change Specification for requirement.\n•\tPerform business requirements analysis, planning and object model designs.\n•\tImplementation & Unit testing and Integration of  developed codes","title":"Senior Developer with  Team Lead"}]},"siteStandardProfileRequest":{"url":"https://www.linkedin.com/profile/view?id=AAoAABZKTh8BDC7FPsEM4KgbwbbGQ1oIV8U0jMs&authType=name&authToken=zMqk&trk=api*a4272041*s4333271*"}}
+2015-11-11 20:47:02.556 LunchMatcher[786:6627] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 20:47:02.580 LunchMatcher[786:6627] Multi-tasking -> Device: YES, App: YES
+2015-11-11 20:47:02.641 LunchMatcher[786:6627] Unlimited access to network resources
+2015-11-11 20:47:03.286 LunchMatcher[786:6627] [CDVTimer][keyboard] 0.290990ms
+2015-11-11 20:47:03.402 LunchMatcher[786:6627] [CDVTimer][socialsharing] 116.499960ms
+2015-11-11 20:47:03.403 LunchMatcher[786:6627] [CDVTimer][TotalPluginStartup] 117.142975ms
+2015-11-11 20:47:03.477 LunchMatcher[786:6627] active
+2015-11-11 20:47:03.824 LunchMatcher[786:6627] Resetting plugins due to page load.
+2015-11-11 20:47:11.168 LunchMatcher[786:6627] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/7FD161C8-6993-4946-9EF0-D5755595A78D/LunchMatcher.app/www/index.html#/app/availability
+2015-11-11 20:48:21.167 LunchMatcher[1046:7692] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 20:48:21.168 LunchMatcher[1046:7692] Multi-tasking -> Device: YES, App: YES
+2015-11-11 20:48:21.171 LunchMatcher[1046:7692] Unlimited access to network resources
+2015-11-11 20:48:21.283 LunchMatcher[1046:7692] [CDVTimer][keyboard] 0.060976ms
+2015-11-11 20:48:21.345 LunchMatcher[1046:7692] [CDVTimer][socialsharing] 61.186969ms
+2015-11-11 20:48:21.345 LunchMatcher[1046:7692] [CDVTimer][TotalPluginStartup] 61.661005ms
+2015-11-11 20:48:21.378 LunchMatcher[1046:7692] active
+2015-11-11 20:48:21.424 LunchMatcher[1046:7692] Resetting plugins due to page load.
+2015-11-11 20:48:21.968 LunchMatcher[1046:7692] WARN: $ionicViewService is deprecated, please use $ionicHistory instead: http://ionicframework.com/docs/nightly/api/service/$ionicHistory/
+2015-11-11 20:48:21.968 LunchMatcher[1046:7692] WARN: $ionicViewService.nextViewOptions is deprecated, please use $ionicHistory.nextViewOptions instead: http://ionicframework.com/docs/nightly/api/service/$ionicHistory/
+2015-11-11 20:48:23.101 LunchMatcher[1046:7692] ERROR: Error: Can't find variable: result
+file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/BA385FE6-8F5E-4515-893D-F918BB9795BC/LunchMatcher.app/www/js/controllers/Availability.js:87:25
+file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/BA385FE6-8F5E-4515-893D-F918BB9795BC/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:17151:13
+processQueue@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/BA385FE6-8F5E-4515-893D-F918BB9795BC/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:20962:29
+file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/BA385FE6-8F5E-4515-893D-F918BB9795BC/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:20978:39
+$eval@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/BA385FE6-8F5E-4515-893D-F918BB9795BC/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:22178:28
+$digest@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/BA385FE6-8F5E-4515-893D-F918BB9795BC/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:21994:36
+$apply@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/BA385FE6-8F5E-4515-893D-F918BB9795BC/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:22282:31
+done@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/BA385FE6-8F5E-4515-893D-F918BB9795BC/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:17439:53
+completeRequest@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/BA385FE6-8F5E-4515-893D-F918BB9795BC/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:17629:15
+requestLoaded@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/BA385FE6-8F5E-4515-893D-F918BB9795BC/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:17570:24
+2015-11-11 20:48:23.379 LunchMatcher[1046:7692] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/BA385FE6-8F5E-4515-893D-F918BB9795BC/LunchMatcher.app/www/index.html#/app/availability
+2015-11-11 20:48:34.782 LunchMatcher[1046:7692] WARN: $ionicViewService.nextViewOptions is deprecated, please use $ionicHistory.nextViewOptions instead: http://ionicframework.com/docs/nightly/api/service/$ionicHistory/
+2015-11-11 20:48:48.779 LunchMatcher[1308:8492] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 20:48:48.780 LunchMatcher[1308:8492] Multi-tasking -> Device: YES, App: YES
+2015-11-11 20:48:48.785 LunchMatcher[1308:8492] Unlimited access to network resources
+2015-11-11 20:48:48.883 LunchMatcher[1308:8492] [CDVTimer][keyboard] 0.086963ms
+2015-11-11 20:48:48.933 LunchMatcher[1308:8492] [CDVTimer][socialsharing] 49.606025ms
+2015-11-11 20:48:48.933 LunchMatcher[1308:8492] [CDVTimer][TotalPluginStartup] 50.229967ms
+2015-11-11 20:48:49.013 LunchMatcher[1308:8492] active
+2015-11-11 20:48:49.052 LunchMatcher[1308:8492] Resetting plugins due to page load.
+2015-11-11 20:48:49.647 LunchMatcher[1308:8492] WARN: $ionicViewService is deprecated, please use $ionicHistory instead: http://ionicframework.com/docs/nightly/api/service/$ionicHistory/
+2015-11-11 20:48:49.647 LunchMatcher[1308:8492] WARN: $ionicViewService.nextViewOptions is deprecated, please use $ionicHistory.nextViewOptions instead: http://ionicframework.com/docs/nightly/api/service/$ionicHistory/
+2015-11-11 20:48:50.895 LunchMatcher[1308:8492] ERROR: Error: Can't find variable: result
+file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/4A81808E-6704-408E-B720-4287DA391B4C/LunchMatcher.app/www/js/controllers/Availability.js:87:25
+file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/4A81808E-6704-408E-B720-4287DA391B4C/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:17151:13
+processQueue@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/4A81808E-6704-408E-B720-4287DA391B4C/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:20962:29
+file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/4A81808E-6704-408E-B720-4287DA391B4C/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:20978:39
+$eval@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/4A81808E-6704-408E-B720-4287DA391B4C/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:22178:28
+$digest@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/4A81808E-6704-408E-B720-4287DA391B4C/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:21994:36
+$apply@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/4A81808E-6704-408E-B720-4287DA391B4C/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:22282:31
+done@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/4A81808E-6704-408E-B720-4287DA391B4C/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:17439:53
+completeRequest@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/4A81808E-6704-408E-B720-4287DA391B4C/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:17629:15
+requestLoaded@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/4A81808E-6704-408E-B720-4287DA391B4C/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:17570:24
+2015-11-11 20:48:51.170 LunchMatcher[1308:8492] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/4A81808E-6704-408E-B720-4287DA391B4C/LunchMatcher.app/www/index.html#/app/availability
+2015-11-11 20:50:04.534 LunchMatcher[1561:9473] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 20:50:04.535 LunchMatcher[1561:9473] Multi-tasking -> Device: YES, App: YES
+2015-11-11 20:50:04.549 LunchMatcher[1561:9473] Unlimited access to network resources
+2015-11-11 20:50:04.642 LunchMatcher[1561:9473] [CDVTimer][keyboard] 0.066042ms
+2015-11-11 20:50:04.695 LunchMatcher[1561:9473] [CDVTimer][socialsharing] 52.340984ms
+2015-11-11 20:50:04.695 LunchMatcher[1561:9473] [CDVTimer][TotalPluginStartup] 52.752018ms
+2015-11-11 20:50:04.755 LunchMatcher[1561:9473] active
+2015-11-11 20:50:04.795 LunchMatcher[1561:9473] Resetting plugins due to page load.
+2015-11-11 20:50:05.317 LunchMatcher[1561:9473] WARN: $ionicViewService is deprecated, please use $ionicHistory instead: http://ionicframework.com/docs/nightly/api/service/$ionicHistory/
+2015-11-11 20:50:05.317 LunchMatcher[1561:9473] WARN: $ionicViewService.nextViewOptions is deprecated, please use $ionicHistory.nextViewOptions instead: http://ionicframework.com/docs/nightly/api/service/$ionicHistory/
+2015-11-11 20:50:06.633 LunchMatcher[1561:9473] ERROR: Error: Can't find variable: result
+file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/2ABDD653-07BF-4312-B9FD-711B1EBFE9A2/LunchMatcher.app/www/js/controllers/Availability.js:87:25
+file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/2ABDD653-07BF-4312-B9FD-711B1EBFE9A2/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:17151:13
+processQueue@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/2ABDD653-07BF-4312-B9FD-711B1EBFE9A2/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:20962:29
+file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/2ABDD653-07BF-4312-B9FD-711B1EBFE9A2/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:20978:39
+$eval@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/2ABDD653-07BF-4312-B9FD-711B1EBFE9A2/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:22178:28
+$digest@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/2ABDD653-07BF-4312-B9FD-711B1EBFE9A2/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:21994:36
+$apply@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/2ABDD653-07BF-4312-B9FD-711B1EBFE9A2/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:22282:31
+done@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/2ABDD653-07BF-4312-B9FD-711B1EBFE9A2/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:17439:53
+completeRequest@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/2ABDD653-07BF-4312-B9FD-711B1EBFE9A2/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:17629:15
+requestLoaded@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/2ABDD653-07BF-4312-B9FD-711B1EBFE9A2/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:17570:24
+2015-11-11 20:50:06.911 LunchMatcher[1561:9473] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/2ABDD653-07BF-4312-B9FD-711B1EBFE9A2/LunchMatcher.app/www/index.html#/app/availability
+2015-11-11 20:50:10.429 LunchMatcher[1561:9473] WARN: $ionicViewService.nextViewOptions is deprecated, please use $ionicHistory.nextViewOptions instead: http://ionicframework.com/docs/nightly/api/service/$ionicHistory/
+2015-11-11 20:54:52.976 LunchMatcher[1817:11154] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 20:54:52.977 LunchMatcher[1817:11154] Multi-tasking -> Device: YES, App: YES
+2015-11-11 20:54:52.979 LunchMatcher[1817:11154] Unlimited access to network resources
+2015-11-11 20:54:53.073 LunchMatcher[1817:11154] [CDVTimer][keyboard] 0.065029ms
+2015-11-11 20:54:53.126 LunchMatcher[1817:11154] [CDVTimer][socialsharing] 53.274989ms
+2015-11-11 20:54:53.126 LunchMatcher[1817:11154] [CDVTimer][TotalPluginStartup] 53.680003ms
+2015-11-11 20:54:53.198 LunchMatcher[1817:11154] active
+2015-11-11 20:54:53.238 LunchMatcher[1817:11154] Resetting plugins due to page load.
+2015-11-11 20:54:53.783 LunchMatcher[1817:11154] WARN: $ionicViewService is deprecated, please use $ionicHistory instead: http://ionicframework.com/docs/nightly/api/service/$ionicHistory/
+2015-11-11 20:54:53.784 LunchMatcher[1817:11154] WARN: $ionicViewService.nextViewOptions is deprecated, please use $ionicHistory.nextViewOptions instead: http://ionicframework.com/docs/nightly/api/service/$ionicHistory/
+2015-11-11 20:54:54.802 LunchMatcher[1817:11154] ERROR: Error: Can't find variable: result
+file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/96EBFE60-9408-4DD8-8C04-FFCF7405C613/LunchMatcher.app/www/js/controllers/Availability.js:87:25
+file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/96EBFE60-9408-4DD8-8C04-FFCF7405C613/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:17151:13
+processQueue@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/96EBFE60-9408-4DD8-8C04-FFCF7405C613/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:20962:29
+file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/96EBFE60-9408-4DD8-8C04-FFCF7405C613/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:20978:39
+$eval@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/96EBFE60-9408-4DD8-8C04-FFCF7405C613/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:22178:28
+$digest@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/96EBFE60-9408-4DD8-8C04-FFCF7405C613/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:21994:36
+$apply@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/96EBFE60-9408-4DD8-8C04-FFCF7405C613/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:22282:31
+done@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/96EBFE60-9408-4DD8-8C04-FFCF7405C613/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:17439:53
+completeRequest@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/96EBFE60-9408-4DD8-8C04-FFCF7405C613/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:17629:15
+requestLoaded@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/96EBFE60-9408-4DD8-8C04-FFCF7405C613/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:17570:24
+2015-11-11 20:54:55.001 LunchMatcher[1817:11154] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/96EBFE60-9408-4DD8-8C04-FFCF7405C613/LunchMatcher.app/www/index.html#/app/availability
+2015-11-11 20:54:58.138 LunchMatcher[1817:11154] WARN: $ionicViewService.nextViewOptions is deprecated, please use $ionicHistory.nextViewOptions instead: http://ionicframework.com/docs/nightly/api/service/$ionicHistory/
+2015-11-11 20:55:56.316 LunchMatcher[2065:12016] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 20:55:56.317 LunchMatcher[2065:12016] Multi-tasking -> Device: YES, App: YES
+2015-11-11 20:55:56.319 LunchMatcher[2065:12016] Unlimited access to network resources
+2015-11-11 20:55:56.418 LunchMatcher[2065:12016] [CDVTimer][keyboard] 0.069976ms
+2015-11-11 20:55:56.466 LunchMatcher[2065:12016] [CDVTimer][socialsharing] 47.233999ms
+2015-11-11 20:55:56.466 LunchMatcher[2065:12016] [CDVTimer][TotalPluginStartup] 47.740996ms
+2015-11-11 20:55:56.540 LunchMatcher[2065:12016] active
+2015-11-11 20:55:56.581 LunchMatcher[2065:12016] Resetting plugins due to page load.
+2015-11-11 20:55:57.179 LunchMatcher[2065:12016] WARN: $ionicViewService is deprecated, please use $ionicHistory instead: http://ionicframework.com/docs/nightly/api/service/$ionicHistory/
+2015-11-11 20:55:57.179 LunchMatcher[2065:12016] WARN: $ionicViewService.nextViewOptions is deprecated, please use $ionicHistory.nextViewOptions instead: http://ionicframework.com/docs/nightly/api/service/$ionicHistory/
+2015-11-11 20:55:58.236 LunchMatcher[2065:12016] ERROR: Error: Can't find variable: result
+file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/21903D9E-89AE-499E-A526-7D5BC771D28F/LunchMatcher.app/www/js/controllers/Availability.js:87:25
+file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/21903D9E-89AE-499E-A526-7D5BC771D28F/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:17151:13
+processQueue@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/21903D9E-89AE-499E-A526-7D5BC771D28F/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:20962:29
+file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/21903D9E-89AE-499E-A526-7D5BC771D28F/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:20978:39
+$eval@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/21903D9E-89AE-499E-A526-7D5BC771D28F/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:22178:28
+$digest@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/21903D9E-89AE-499E-A526-7D5BC771D28F/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:21994:36
+$apply@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/21903D9E-89AE-499E-A526-7D5BC771D28F/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:22282:31
+done@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/21903D9E-89AE-499E-A526-7D5BC771D28F/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:17439:53
+completeRequest@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/21903D9E-89AE-499E-A526-7D5BC771D28F/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:17629:15
+requestLoaded@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/21903D9E-89AE-499E-A526-7D5BC771D28F/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:17570:24
+2015-11-11 20:55:58.365 LunchMatcher[2065:12016] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/21903D9E-89AE-499E-A526-7D5BC771D28F/LunchMatcher.app/www/index.html#/app/availability
+2015-11-11 20:56:02.033 LunchMatcher[2065:12016] WARN: $ionicViewService.nextViewOptions is deprecated, please use $ionicHistory.nextViewOptions instead: http://ionicframework.com/docs/nightly/api/service/$ionicHistory/
+2015-11-11 20:56:25.187 LunchMatcher[2309:12704] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-11 20:56:25.188 LunchMatcher[2309:12704] Multi-tasking -> Device: YES, App: YES
+2015-11-11 20:56:25.191 LunchMatcher[2309:12704] Unlimited access to network resources
+2015-11-11 20:56:25.285 LunchMatcher[2309:12704] [CDVTimer][keyboard] 0.068009ms
+2015-11-11 20:56:25.332 LunchMatcher[2309:12704] [CDVTimer][socialsharing] 46.999037ms
+2015-11-11 20:56:25.332 LunchMatcher[2309:12704] [CDVTimer][TotalPluginStartup] 47.420979ms
+2015-11-11 20:56:25.487 LunchMatcher[2309:12704] Resetting plugins due to page load.
+2015-11-11 20:56:25.686 LunchMatcher[2309:12704] active
+2015-11-11 20:56:26.017 LunchMatcher[2309:12704] WARN: $ionicViewService is deprecated, please use $ionicHistory instead: http://ionicframework.com/docs/nightly/api/service/$ionicHistory/
+2015-11-11 20:56:26.018 LunchMatcher[2309:12704] WARN: $ionicViewService.nextViewOptions is deprecated, please use $ionicHistory.nextViewOptions instead: http://ionicframework.com/docs/nightly/api/service/$ionicHistory/
+2015-11-11 20:56:27.161 LunchMatcher[2309:12704] ERROR: Error: Can't find variable: result
+file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/1F1BA4EA-FF7E-4573-899C-342B98C76726/LunchMatcher.app/www/js/controllers/Availability.js:87:25
+file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/1F1BA4EA-FF7E-4573-899C-342B98C76726/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:17151:13
+processQueue@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/1F1BA4EA-FF7E-4573-899C-342B98C76726/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:20962:29
+file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/1F1BA4EA-FF7E-4573-899C-342B98C76726/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:20978:39
+$eval@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/1F1BA4EA-FF7E-4573-899C-342B98C76726/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:22178:28
+$digest@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/1F1BA4EA-FF7E-4573-899C-342B98C76726/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:21994:36
+$apply@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/1F1BA4EA-FF7E-4573-899C-342B98C76726/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:22282:31
+done@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/1F1BA4EA-FF7E-4573-899C-342B98C76726/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:17439:53
+completeRequest@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/1F1BA4EA-FF7E-4573-899C-342B98C76726/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:17629:15
+requestLoaded@file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/1F1BA4EA-FF7E-4573-899C-342B98C76726/LunchMatcher.app/www/lib/ionic/js/ionic.bundle.js:17570:24
+2015-11-11 20:56:27.257 LunchMatcher[2309:12704] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/1F1BA4EA-FF7E-4573-899C-342B98C76726/LunchMatcher.app/www/index.html#/app/availability
+2015-11-11 20:56:36.862 LunchMatcher[2309:12704] WARN: $ionicViewService.nextViewOptions is deprecated, please use $ionicHistory.nextViewOptions instead: http://ionicframework.com/docs/nightly/api/service/$ionicHistory/
+2015-11-11 20:56:53.399 LunchMatcher[2309:12704] Can't find keyplane that supports type 5 for keyboard iPhone-PortraitChoco-PhonePad; using 3760611571_PortraitChoco_iPhone-Complex-Pad_Default
+2015-11-11 21:03:33.146 LunchMatcher[2309:12704] {"firstName":"asker","formattedName":"asker ali","headline":"Team Leader (Web development) at NewageSys solutions Plts","id":"po67M2iX8f","industry":"Information Technology and Services","lastName":"ali","pictureUrl":"https://media.licdn.com/mpr/mprx/0_3rnHNj1a855qps2l3-lUNYt-CirZy0pliACBNxi-g6XW_UIAS9QXV0BpuSKQ04jgh1N9U4AnTB_a","pictureUrls":{"_total":1,"values":["https://media.licdn.com/mpr/mprx/0_1SL80bpoU9vKH6bmzuvm06y6y6wKSqwmqDUDJ6SXttoPdzJhngkuU2tdJB2"]},"positions":{"_total":1,"values":[{"company":{"id":147091,"industry":"Pharmaceuticals","name":"NewAgeSys, Inc","size":"201-500 employees","ticker":"","type":"Privately Held"},"id":589051880,"isCurrent":true,"startDate":{"month":6,"year":2011},"summary":"•\tAnalysis & Feasibility study of requirements.\n•\tDesign, & Preparation of Change Specification for requirement.\n•\tPerform business requirements analysis, planning and object model designs.\n•\tImplementation & Unit testing and Integration of  developed codes","title":"Senior Developer with  Team Lead"}]},"siteStandardProfileRequest":{"url":"https://www.linkedin.com/profile/view?id=AAoAABZKTh8BDC7FPsEM4KgbwbbGQ1oIV8U0jMs&authType=name&authToken=zMqk&trk=api*a4272041*s4333271*"}}
+2015-11-11 22:31:39.299 LunchMatcher[2309:43311] Terminating since there is no system app.
+2015-12-03 20:21:13.587 LunchMatcher[17283:79480] Apache Cordova native platform version 3.8.0 is starting.
+2015-12-03 20:21:13.611 LunchMatcher[17283:79480] Multi-tasking -> Device: YES, App: YES
+2015-12-03 20:21:13.649 LunchMatcher[17283:79480] Unlimited access to network resources
+2015-12-03 20:21:14.205 LunchMatcher[17283:79480] [CDVTimer][keyboard] 0.262022ms
+2015-12-03 20:21:14.297 LunchMatcher[17283:79480] [CDVTimer][socialsharing] 91.669977ms
+2015-12-03 20:21:14.297 LunchMatcher[17283:79480] [CDVTimer][TotalPluginStartup] 92.272997ms
+2015-12-03 20:21:14.356 LunchMatcher[17283:79480] active
+2015-12-03 20:21:14.620 LunchMatcher[17283:79480] Resetting plugins due to page load.
+2015-12-03 20:21:17.224 LunchMatcher[17283:79480] Finished load of: file:///Users/newagesmb/Library/Developer/CoreSimulator/Devices/E737C9C1-E633-4630-89EE-99F7649287B9/data/Containers/Bundle/Application/8503C391-EB03-4842-A853-CA719A0375CE/LunchMatcher.app/www/index.html#/login
+2015-12-03 20:21:20.362 LunchMatcher[17283:79480] Setting the WebView's frame to {{0, 0}, {375, 623}}
+2015-12-03 20:21:20.365 LunchMatcher[17283:79480] THREAD WARNING: ['InAppBrowser'] took '123.383057' ms. Plugin should use a background thread.
+2015-12-03 20:21:51.466 LunchMatcher[17283:79480] -------
+2015-12-03 20:21:51.466 LunchMatcher[17283:79480] {"status":"error","message":"Database Error","result":[]}
+2015-12-03 20:21:53.940 LunchMatcher[17283:79480] THREAD WARNING: ['InAppPurchase'] took '33.874023' ms. Plugin should use a background thread.
+2015-12-03 20:21:53.940 LunchMatcher[17283:79480] InAppPurchase[js]: setup ok
+2015-12-03 20:21:53.940 LunchMatcher[17283:79480] InAppPurchase[js]: load ["points_50","points_120","points_250","points_500"]
+2015-12-03 20:21:53.940 LunchMatcher[17283:79480] InAppPurchase[objc]: Getting products data
+2015-12-03 20:21:53.940 LunchMatcher[17283:79480] InAppPurchase[objc]: Set has 4 elements
+2015-12-03 20:21:53.941 LunchMatcher[17283:79480] InAppPurchase[objc]:  - points_500
+2015-12-03 20:21:53.941 LunchMatcher[17283:79480] InAppPurchase[objc]:  - points_50
+2015-12-03 20:21:53.941 LunchMatcher[17283:79480] InAppPurchase[objc]:  - points_120
+2015-12-03 20:21:53.941 LunchMatcher[17283:79480] InAppPurchase[objc]:  - points_250
+2015-12-03 20:21:53.941 LunchMatcher[17283:79480] InAppPurchase[objc]: Starting product request...
+2015-12-03 20:21:53.941 LunchMatcher[17283:79480] InAppPurchase[objc]: Product request started
+2015-12-03 20:21:54.853 LunchMatcher[17283:79480] {"list":["points_50","points_120","points_250","points_500"]}
+2015-12-03 20:21:54.853 LunchMatcher[17283:79480] {"options":{},"receiptForTransaction":{},"receiptForProduct":{}}
+2015-12-03 20:21:54.853 LunchMatcher[17283:79480] InAppPurchase[objc]: About to do IAP
+2015-12-03 20:21:54.899 LunchMatcher[17283:79480] *** WebKit discarded an uncaught exception in the webView:decidePolicyForNavigationAction:request:frame:decisionListener: delegate: <NSInvalidArgumentException> Invalid product identifier: (null)
+2015-12-03 20:21:59.291 LunchMatcher[17283:79480] InAppPurchase[objc]: productsRequest: didReceiveResponse:
+2015-12-03 20:21:59.292 LunchMatcher[17283:79480] InAppPurchase[objc]: Has 4 validProducts
+2015-12-03 20:21:59.292 LunchMatcher[17283:79480] InAppPurchase[objc]:  - points_120: (null)
+2015-12-03 20:21:59.293 LunchMatcher[17283:79480] InAppPurchase[objc]:  - points_250: (null)
+2015-12-03 20:21:59.294 LunchMatcher[17283:79480] InAppPurchase[objc]:  - points_50: (null)
+2015-12-03 20:21:59.294 LunchMatcher[17283:79480] InAppPurchase[objc]:  - points_500: (null)
+2015-12-03 20:21:59.295 LunchMatcher[17283:79480] InAppPurchase[objc]: productsRequest: didReceiveResponse: sendPluginResult: (
+        (
+                {
+            description = "<null>";
+            id = "points_120";
+            price = "\U20b9\U00a0620.00";
+            title = "<null>";
+        },
+                {
+            description = "<null>";
+            id = "points_250";
+            price = "\U20b9\U00a01,200.00";
+            title = "<null>";
+        },
+                {
+            description = "<null>";
+            id = "points_50";
+            price = "\U20b9\U00a0300.00";
+            title = "<null>";
+        },
+                {
+            description = "<null>";
+            id = "points_500";
+            price = "\U20b9\U00a02,150.00";
+            title = "<null>";
+        }
+    ),
+        (
+    )
+)
+2015-12-03 20:21:59.296 LunchMatcher[17283:79480] InAppPurchase[js]: load ok: { valid:[{"title":null,"id":"points_120","price":"₹ 620.00","description":null},{"title":null,"id":"points_250","price":"₹ 1,200.00","description":null},{"title":null,"id":"points_50","price":"₹ 300.00","description":null},{"title":null,"id":"points_500","price":"₹ 2,150.00","description":null}] invalid:[] }

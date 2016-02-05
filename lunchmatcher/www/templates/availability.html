@@ -1,0 +1,87 @@
+<ion-header-bar align-title="left" class="bar-positive cus_header">
+  <div class="buttons">
+    <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+  </div>
+  <h1 class="title">Set Availability & Location</h1>
+  <div class="buttons">
+  	<button class="button button-icon button-clear bordr_none ion-ios7-checkmark-outline" ng-click="saveAvailability()"></button>
+    <!--<button class="button bordr_none" ng-click="saveAvailability()">NEXT</button>venueSelected-->
+  </div>
+</ion-header-bar>
+<span class="fixed-venues" ng-click="viewVenuesList()">
+<img class="venus" src="img/venues.png" />
+</span>
+<span class="fixed-location" ng-click="getCurrentLocation()">
+<img class="gps" src="img/gps.png" />
+</span>
+<!--<i class="ion-ios-location fixed-location" on-touch="checkifAvailable()" ng-click="getCurrentLocation()"></i>-->
+<ion-content>
+  <ul class="list cust_lst" style="margin-bottom:0px;">
+    <li class="item pad_2">
+    <div class="row padg_0">
+      <div class="col col-75"><i><img src="img/icon_lst.png"></i>Available for next lunch slot</div>
+      <div class="col">
+      <label class="toggle">
+      <input type="checkbox" ng-model="userAvailability.availableToday" name="availableToday" ng-change="disableFields(userAvailability.availableToday)">
+      <div class="track">
+      <div class="handle"></div>
+      </div>
+     </label>
+     </div>
+     </div>
+    </li>
+    
+    <li class="item pad_2" >
+      <div class="col"><i><img src="img/icon_lst.png"></i>Set time slot <span class="font_size right_align"> {{time12[timeRange.match_time_from]}} - {{time12[timeRange.match_time_to]}} </span></div> 
+      <div class="col">
+      <div class="range cust_range" detect-gestures gesture-type="swipe">
+         <!-- <md-slider flex md-discrete ng-model="rating1" step="1" min="1" max="5" aria-label="rating">
+      	  </md-slider>-->
+          <slider floor="0" ceiling="3" step=".5" precision="2" ng-model-low="timeRange.match_time_from" ng-model-high="timeRange.match_time_to" restrict="timeSlotRestrictStartFrom" ></slider> 
+      </div>
+      <div class="row time_range">      
+      <div class=" lst cus_line"><p class="text_left line">I</p><p class="orang text_left">11</p></div>
+      <div class=" lst"><p class="line">I</p><p class="orang"></p></div>
+      <div class=" lst"><p class="line">I</p><p class="orang">12</p></div>
+      <div class=" lst"><p class="line">I</p><p class="orang"></p></div>
+      <div class=" lst"><p class="line">I</p><p class="orang">01</p></div>
+      <div class=" lst"><p class="line">I</p><p class="orang"></p></div>
+      <div class=" lst cus_line"><p class="line txt_right">I</p><p class="orang txt_right">02</p></div>
+      </div>
+
+		
+
+     </div>
+    </li>
+    <li class="item bg_green pad_2">
+    
+      <div class="range cust_range">
+        <input type="range" min="0.5" max="5" step=".50" ng-change="radiusChange(userAvailability.match_radius)" ng-model="userAvailability.match_radius"   />
+         <input type="hidden" ng-model="userAvailability.match_radius" name="old_radius" id="old_radius"   />
+         <input type="hidden" ng-model="userAvailability.prev_availid" name="prev_availid" id="prev_availid"   />
+      </div>
+     <div class="row padg_0">
+      <div class="row Km_range">
+      <div class="col lst">0.5km</div>
+<!--      <div class="col lst"></div>
+      <div class="col lst"> </div>-->
+      <div class="col lst" style="text-align:center;"> Radius : {{userAvailability.match_radius}} km</div>
+<!--      <div class="col lst"></div>
+      <div class="col lst"></div>-->
+      <div class="col lst txt_right">5km</div>
+      </div>
+     </div>
+     <div class="row">
+     	<label class="item-input-wrapper cust_serch">
+        <input type="search" placeholder="Search" id="search" g-places-autocomplete ng-model="googlePlaces" ng-click="scrollBottom()" >
+        <input type="hidden" ng-model="userAvailability.location" name="old_location" id="old_location"   />
+        <i class="icon ion-ios7-search placeholder-icon"></i>
+        </label>
+     </div>
+    </li>
+</ul> 
+<!--<input id="search" class="controls" type="text"  placeholder="Enter a location" g-places-autocomplete ng-model="googlePlaces" ng-click="scrollBottom()"   ng-disabled="disable.disableFields">-->
+
+<div id="map" data-tap-disabled="true" style="width:100%; height:75%;" ng-readonly="disable.disableFields"></div>
+</ion-content>
+

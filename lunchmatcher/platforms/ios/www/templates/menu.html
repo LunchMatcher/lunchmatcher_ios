@@ -1,0 +1,63 @@
+<ion-side-menus enable-menu-with-back-views="true">
+  <ion-pane ion-side-menu-content  drag-content="false">
+  	<ion-nav-bar class="bar-stable" style=" display:none">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent" animation="slide-left-right" cache="false"></ion-nav-view>
+  </ion-pane>
+
+  <ion-side-menu side="left" width="myWidthValue + 105">
+    
+    <ion-content class="cust_dash">
+      <ion-list>
+        <ion-item nav-clear menu-close href="#/app/tutorial">
+          <i class="ion-ios-information-outline"></i>
+          Tutorial
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/app/availability">
+          <i class="ion-ios-timer-outline"></i>
+          Availability
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/app/registration">
+          <i class="ion-levels"></i>
+          Preferences
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/app/scorepoints">
+          <i class="ion-ios-pie-outline"></i>
+          Score & Points 
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/app/matchhistory">
+          <i class="ion-ios-loop-strong"></i>
+          Match History
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/app/feedbackshare">
+          <i class="ion-android-share-alt"></i>
+          Feedback
+        </ion-item>
+        
+        <!--<ion-item class="lgut_cst" nav-clear menu-close href="#/logout">
+          <i class="ion-log-out" style="color:#fff;"></i>
+          LOGOUT
+        </ion-item> -->
+        
+       <!--<ion-item class="lgut_cst" nav-clear menu-close href="#/app/matchprofile/37/538/rejected">
+          <i class="ion-log-out" style="color:#fff;"></i>
+          Test Menu Match detail
+        </ion-item>-->
+         <!--<ion-item class="lgut_cst" nav-clear menu-close href="#/app/profilereview/8/253">
+          <i class="ion-log-out" style="color:#fff;"></i>
+          LOGOUT
+        </ion-item>-->
+               
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>
+
+

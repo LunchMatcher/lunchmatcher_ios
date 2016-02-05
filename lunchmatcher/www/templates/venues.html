@@ -1,0 +1,40 @@
+<ion-header-bar align-title="left" class="bar-positive cus_header">
+  <div class="buttons">
+    <button class="button button-icon button-clear ion-ios-arrow-back" ng-click="gotoback()" ></button>
+  </div>
+  <h1 class="title">MATCHING VENUES</h1>
+  <div class="buttons">
+	<!--<button class="button button-icon button-clear bordr_none ion-ios-heart" ng-click="showFav()"></button> --> 
+    <button class="button button-icon button-clear bordr_none ion-ios7-checkmark-outline" ng-click="venueSelected()"></button>
+  </div>
+</ion-header-bar>
+<ion-content padding="true">
+  <div class="list cusmize_list">
+	<div  ng-hide="noRestaurants">{{noRestaurantText}}</div>
+  <a href="javascript:void(0);" class="item item-thumbnail-left mg_top" ng-repeat="venue in venues.venueDetails" ng-if="blockeVenues.indexOf(venue.place_id) == -1">
+  <h1 ng-click="venues.toggleVenue(venue)"> 
+  <img ng-src="{{venuesImages[0][venue.place_id]?venuesImages[0][venue.place_id]:(venue.photos[0].photo_reference != null ? 'https://maps.googleapis.com/maps/api/place/photo?maxheight=90&photoreference='+venue.photos[0].photo_reference+'&key='+apiKey : imageNotAvail)}}" class="lst_thmb">
+  <!--<img ng-src="{{venue.imageURL}};" class="lst_thmb">-->
+  <div class="chk_bx"><img ng-src="{{ venue.selected == 'true' ? 'img/check-mark-green.png' : 'img/check-mark.png' }}"></div>
+  </h1>
+
+  <span ng-click="showDetails(venue)">
+  <h2>{{venue.name}}</h2>
+  <div class="item-text-wrap venues-name">{{venue.vicinity}}</div>
+  </span>
+  
+  <div class="row padg_0">
+  <p class="col-35 padg_6 padg_0" style="padding-right:6px !important;">       
+      <i class="ion-ios-star {{i <= venue.rating && 'color_orange' || 'color_gray'}}"  data-ng-repeat="i in [1,2,3,4,5]"></i>
+      
+  </p>
+  <p class="col padg_0 favt" ng-click="venues.toggleFav(venue)"><i ng-init="venue.favourite == true ? true : false" class="ion-ios-heart {{ venue.favourite == true ? 'color_green' : 'color_gray' }}"></i>{{ venue.favourite == true ? 'Remove Favourite' : 'Add Favourite' }}</p>
+
+  <div class="arrow"><i class="ion-ios-arrow-right color_gray"></i></div>
+  </div>
+  </a>
+  
+  </div>
+  <ion-infinite-scroll ng-if="more" on-infinite="getVenues()" distance="1%"></ion-infinite-scroll>
+</ion-content>
+

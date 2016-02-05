@@ -1,0 +1,54 @@
+<ion-header-bar align-title="left" class="bar-positive cus_header">
+  <div class="buttons">
+   <!-- <button class="button button-icon button-clear ion-navicon" ng-click="doSomething()" menu-toggle="left"></button>-->
+  </div>
+  <h1 class="title">Matching PROFILE AND VENUE</h1>
+  <div class="buttons">
+  </div>
+</ion-header-bar>
+<ion-content class="cust_innr">
+
+	<div class="content padding cutom_profile bg_pr_nw">
+		<div class="content padding cutom_profile">
+      <p class="no_matches" style="font-size:16px;margin-top: 0px;">
+      {{message}}
+      </p>      
+    </div>
+    	<div class="clearfix"></div>
+      <div class=" profile_custom">
+        <div class="pr_img"><img ng-src="{{matchedUser.picture_url != null ? matchedUser.picture_url : imageNotAvail}}"></div>
+      </div>
+      
+      <h3>{{matchedUser.formatted_name}}</h3>
+      <h5>{{matchedUser.headline}}</h5>
+      <h6>{{matchedUser.company}}</h6>
+      <h4><i class="ion-ios-telephone-outline"></i> Phone <span ng-click="dialPhone(matchedUser.contact_number)">{{matchedUser.contact_number}}</span></h4>
+    </div>
+    <div class="clearfix"></div>
+    <div class="col prf_row" style="padding-bottom:10px; background:#01875c;">
+    	<h2 class="sub_title">MATCHING VENUE</h2>
+    	<h4 class="cut_time">Time  : {{matchedUser.match_time_from}} to {{matchedUser.match_time_to}}</h4>
+        <div class="col details_nw">
+            <h3>{{matchedUser.venue.name}}</h3>
+            <h4>{{matchedUser.venue.address}}</h4>
+            <h4>PHONE : <span ng-click="dialPhone(matchedUser.venue.phone_number)">{{matchedUser.venue.phone_number}}</span></h4>
+            <h3>
+                <i class="ion-android-star color_orange" ng-repeat="i in [1,2,3,4,5]" ng-if="i <= matchedUser.venue.rating_orange"> </i>
+                <i class="ion-android-star color_gray" ng-repeat="j in [1,2,3,4,5]" ng-if="j <= matchedUser.venue.rating_gray"> </i>
+               
+            </h3>
+        </div>
+    </div>
+    
+    
+	<div class="col padg_0">
+            <img class="venu-pic" ng-src="{{iMgSrc}}" style=" display:block;" ng-click="showImage()">
+    </div>
+    <script id="image-modal.html" type="text/ng-template">
+              <div class="modal image-modal transparent" ng-click="closeModal()">
+                  <ion-pane class="transparent">
+                     <img ng-src="{{iMgSrc}}" class="fullscreen-image"/>
+                  </ion-pane>
+              </div>
+          </script>
+</ion-content>

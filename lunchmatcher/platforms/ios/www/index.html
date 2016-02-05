@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/lib/autocomplete.css" rel="stylesheet">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+    <!--<link href="css/lib/ionicons.min.css" rel="stylesheet">-->
+    
+   	<link href="css/lib/angular-slider/angular-slider.min.css" rel="stylesheet" type="text/css" />
+    
+    
+	<!--<link rel="stylesheet" href="css/lib/angular-material/angular-material.min.css">-->
+    
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+	
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+	
+    <script src="js/lib/ng-cordova.min.js"></script>
+    
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+    <!--library files-->
+    <script src="js/lib/jquery-2.1.3.min.js"></script>
+    <script src="js/lib/angular-messages.min.js"></script>
+    <script src="js/lib/autocomplete.js"></script>
+    
+    
+    <script src="js/lib/angular-slider/angular-slider.min.js"></script>    
+ 
+<!-- 	<script src="js/lib/angular-material/angular-animate.min.js"></script>  
+    <script src="js/lib/angular-material/angular-aria.min.js"></script>
+    <script src="js/lib/angular-material/angular-material.min.js"></script>-->
+    
+<!--MOBISCROLL-->
+    <script src="js/lib/mobiscroll/mobiscroll.core.js"></script>
+    <script src="js/lib/mobiscroll/mobiscroll.widget.js"></script>
+    <script src="js/lib/mobiscroll/mobiscroll.scroller.js"></script>
+
+    <script src="js/lib/mobiscroll/mobiscroll.util.datetime.js"></script>
+    <script src="js/lib/mobiscroll/mobiscroll.datetimebase.js"></script>
+    <script src="js/lib/mobiscroll/mobiscroll.datetime.js"></script>
+
+    <script src="js/lib/mobiscroll/mobiscroll.widget.android-holo.js"></script>
+    <script src="js/lib/angular-ios9-uiwebview.patch.js"></script>
+<!--MOBISCROLL END##-->
+
+
+    <script src="js/app.js"></script>
+    <!--<script src="js/controllers.js"></script>-->    
+    <script src="js/controllers/Home.js"></script>
+    <script src="js/controllers/App.js"></script>
+    <script src="js/controllers/Availability.js"></script>
+    <script src="js/controllers/BuyPoint.js"></script>
+    <script src="js/controllers/Companies.js"></script> 
+    <script src="js/controllers/Feedback.js"></script>    
+    <script src="js/controllers/Login.js"></script>
+    <script src="js/controllers/Match.js"></script>
+    <script src="js/controllers/MatchDetail.js"></script>
+    <script src="js/controllers/MatchHistory.js"></script>
+    <script src="js/controllers/Point.js"></script>
+    <script src="js/controllers/Pointslist.js"></script>
+    <script src="js/controllers/Review.js"></script>
+    <script src="js/controllers/VenueDetails.js"></script>
+    <script src="js/controllers/Venues.js"></script>
+    <script src="js/controllers/Tutorial.js"></script>
+    
+    <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyBVSk-V_prp0d5bOQbpIZJPXOP_rRcRlHA"> </script>	
+      <script type="text/javascript" charset="utf-8">
+        $(document).on('click', '.gm-style-iw a', function (event) {
+            event.preventDefault();
+            window.open($(this).attr('href'), '_system');
+            return false;
+        });
+    </script>
+  </head>
+
+  <body ng-app="starter" class="platform-ios platform-cordova platform-webview">
+    <ion-nav-view animation="slide-left-right"></ion-nav-view>
+  </body>
+</html>

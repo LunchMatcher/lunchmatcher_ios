@@ -1,0 +1,111 @@
+<ion-header-bar align-title="left" class="bar-positive cus_header">
+  <div class="buttons" ng-if="review.feed_id">
+    <button class="button button-icon button-clear ion-navicon" ng-click="doSomething()" menu-toggle="left"></button>
+  </div>
+  <div class="buttons" ng-if="!noReview">
+    <button class="button button-icon button-clear ion-navicon" ng-click="doSomething()" menu-toggle="left"></button>
+  </div>
+  <h1 class="title" style="left:45px;">Review Profile</h1>
+  <div class="buttons">
+  </div>
+</ion-header-bar>
+<ion-content class="cust_innr">
+
+	<div class="content row padding cutom_review">
+      <div class="col review_label">
+      	<div class="cus_rew col cus_pad">
+      	<span class="truncate"> {{matchedUser.venue_name}}</span>
+        </div>
+      </div>
+      <div class=" profile_review col">
+        <div class="pr_img"><img ng-src="{{matchedUser.picture_url?matchedUser.picture_url:config.noImage}}"></div>
+      </div>
+      <div class="col review_label">
+      	<div class="cus_rew col cus_pad">
+        <span> {{matchedUser.schedule_timefrom}} to {{matchedUser.schedule_timeto}} </span>
+        </div>
+      </div>
+    </div>
+    <div class="col padg_0 profile_review">
+      <h3>{{matchedUser.formatted_name}}</h3>
+      <h5>{{matchedUser.headline}}</h5>
+      <h6>{{matchedUser.company}}</h6>
+    </div>
+    
+    <div class="clearfix"></div>
+    
+    <div ng-show="noShow">
+    	<div class="rew_row padg_0 noshow_msg">User has selected the No Show for previous match.
+        	<!--<div class="circle_red"  ng-click="noFeedback()" ><span>NO <br> SHOW</span></div>-->
+    	</div>
+    </div>
+    <div ng-show="noReview">
+        <div class="rew_row padg_0" style="background:none;">
+            <div ng-if="!review.feed_id" class="circle_red" ng-class="{Y: ' ', N: 'color_gray_back'}[review.no_show]" ng-click="noShowUpdate()" >
+            <span>NO<br>SHOW</span></div>
+            <div class="circle_red" ng-show="noShowB1">
+            <span>NO<br>SHOW</span></div>
+           
+            <input type="hidden" name="member_id" id="member_id" value="{{matchedUser.member_id}}" ng-model="review.member_id" /> 
+        </div>
+        
+        <div class="content row padding sahre-area">
+            <div class="col">
+                <h6>Please share your latest Lunch activity with your friends in social media, you can get 4 points for each.</h6><div class="clearfix"></div> 
+                <div class="share-buttons">
+                    <span ng-click="share('facebook');"><img src="img/facebook-s.png" width="60"  /></span>
+                    <span ng-click="share('linkedin');"><img src="img/linkedin-s.png" width="60"  /></span>
+                    <span ng-click="share('twitter');"><img src="img/twitter-s.png" width="60"  /></span>
+                </div>
+             </div>
+    		<div class="clearfix"></div>       
+        </div>
+        
+        <div class="rate_wp" ng-show="showReview">
+        <div class="col">
+            <h2>Rate your experience with this user </h2>
+          <div class="rating_row row">
+          <span class="star" ng-repeat="i in [1,2,3,4,5]" > 
+                        <li><a href="javascript:void(0);" class="userrate" data-value="{{i}}" ng-click="saveRating({{i}})" ng-class="{active: i<=review.rating_val}"><i class="ion-ios-star"></i></a></li>
+          </span>
+          </div>
+        </div>
+        
+        <div class="col">
+            <h2>Comment</h2>
+          <div class="comments row">
+           <textarea  class="cust_textarea" placeholder="Comments" rows="4" ng-model="review.feed_back"></textarea>
+            
+          </div>
+        </div>
+        </div>
+        
+        <div class="rate_wp" ng-show="showReview">
+        <div class="col">
+            <h2>Rate your experience with this venue</h2>
+          <div class="rating_row row">
+          <span class="star" ng-repeat="j in [1,2,3,4,5]"> 
+             <li><a href="javascript:void(0);" class="venuerate" data-value="{{j}}" ng-click="saveVenueRating({{j}})" ng-class="{active: j<=review.v_rating_val}"><i class="ion-ios-star"></i></a></li>
+          </span>
+     
+          </div>
+        </div>
+        
+        <div class="col">
+            <h2>Comment</h2>
+          <div class="comments row">
+            <textarea  class="cust_textarea" placeholder="Comments" rows="4" ng-model="review.v_feed_back"></textarea>
+          </div>
+        </div>
+        </div>
+       
+        <div class="rate_section row rate_wp" ng-show="showReview">
+        <button ng-if="!review.feed_id" class="button col-75 col-offset-10 green_btn button-positive" ng-click="saveReview()">
+          Submit
+        </button>
+        </div>
+    </div>
+    
+  
+</ion-content>
+

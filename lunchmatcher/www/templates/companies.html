@@ -1,0 +1,44 @@
+<!--<input type="checkbox" checklist-model="selectedCompanies" checklist-value="company.id">-->
+<ion-header-bar align-title="left" class="bar-positive cus_header custm_color">
+  <div class="buttons">
+    <button class="button button-icon button-clear ion-ios-arrow-back" ng-click="gotoback()" ></button>
+  </div>
+  <h1 class="title">LUNCH MATCHER</h1>
+  <div class="buttons">
+    <button class="button button-icon button-clear bordr_none ion-ios7-checkmark-outline" ng-click="companySelected()"></button>
+  </div>
+</ion-header-bar>
+  <ion-content class=" login_wp">
+    <form>
+      <div class="list">
+          
+        <div class="list cus_lgn">
+        	  <label class="item item-input col">
+                <div class="col padg_0">
+                <div class="row lbl_border">
+                <h6 class="input-labe">Search results for "{{searchKey}}" </h6>
+                </div>
+                </div>
+              </label>
+        </div>        
+          <div class="list cus_lgn" ng-repeat="company in companies" ng-click="toggleCompany(company)">
+        	  <label class="item item-input col">
+                <div class="col padg_0">
+                <div class="row list_comp">
+                <div class="lgo_circle col-20"><img style="max-width:50px;max-height:50px;" ng-src="{{company.logoUrl!= null && company.logoUrl || imageNotAvail}}"></div>
+                <span class="col search_com item-text-wrap max_width_70">{{company.name}}</span><a href="javascript:void(0);" class="search_selt_ic" ><i ng-init="company.selected=false" ng-class="{'true':'ion-ios-checkmark-outline','false':'ion-ios-circle-outline'}[company.selected]" ></i></a>
+                </div>
+                </div>
+              </label>
+          </div>
+         <div ng-if="companies.length==0" style="margin-left:6%;">No results available for "{{searchKey}}"</div> 
+      </div>
+        
+        <!--<div class="padding">
+        <button class="button button-block button-positive cust_btn">SIGN UP</button>
+        </div>-->
+      </div>
+    </form>
+    
+    <ion-infinite-scroll ng-if="more" on-infinite="loadCompanies()" distance="10%"></ion-infinite-scroll>
+  </ion-content>

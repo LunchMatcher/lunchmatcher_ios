@@ -1,0 +1,195 @@
+6<!--MOBISDCROLL CSS-->
+    <link href="css/lib/mobiscroll/mobiscroll.animation.css" rel="stylesheet" type="text/css" />
+    <link href="css/lib/mobiscroll/mobiscroll.widget.css" rel="stylesheet" type="text/css" />
+    <link href="css/lib/mobiscroll/mobiscroll.widget.android-holo.css" rel="stylesheet" type="text/css" />
+    
+    <link href="css/lib/mobiscroll/mobiscroll.scroller.css" rel="stylesheet" type="text/css" />
+    <link href="css/lib/mobiscroll/mobiscroll.scroller.android-holo.css" rel="stylesheet" type="text/css" />
+MOBISCROLL END##
+
+
+         
+    <script id="templates/form-errors.html" type="text/ng-template">
+      <div class="form-error" ng-message="required">Please provide your phone number with country code.</div>
+      <div class="form-error" ng-message="minlength">Phone Number field must be greater than 9 characters.</div>
+      <div class="form-error" ng-message="maxlength">Phone Number field must be less than 14 characters</div>
+    </script>
+    <script id="templates/gender-errors.html" type="text/ng-template">
+	  <div class="form-error" ng-message="required">Please specify your gender to get lunch matcher.</div>
+    </script>
+    <script id="templates/email-errors.html" type="text/ng-template">
+	  <div class="form-error" ng-message="required">Please provide your email.</div>
+	  <div class="form-error" ng-message="pattern">Please provide a valid email.</div>
+    </script>
+ 
+  	<ion-header-bar align-title="left" class="bar-positive cus_header custm_color">
+  <div class="buttons">
+    <button class="button button-icon button-clear ion-navicon"  menu-toggle="left" ng-if="showmenuButton"></button>
+  </div>
+<h1 class="title" style="margin-left:40px;">LUNCH MATCHER</h1>
+  <div class="buttons">
+    <button class="button button-icon button-clear bordr_none ion-ios7-checkmark-outline" name="complete" ng-click="regComplete(regForm)"></button>
+  </div>
+	</ion-header-bar>
+{{$scope.user || json }}
+<form name="regForm" id="regForm" novalidate="" ng-submit="regComplete(regForm)">
+  <ion-content class=" login_wp">
+    	  
+         <div class="col txt_cst">
+          <label class="item item-input cust_input" style="background:none;">
+          <div class="input-label">
+          <i class="icon ion-ios-person-outline placeholder-icon"></i> Update Profile details
+          </div>
+            <label ng-click="updateProfile()"><img ng-src="img/btn-update.png" style="width:90%;"></label>
+          </label>
+        </div>
+         <div class="col txt_cst">       
+         <div class="form-errors"  
+               ng-show="regForm.email.$error && showValidationMessages"
+               ng-messages="regForm.email.$error"
+               ng-messages-include="templates/email-errors.html">
+        	</div>
+          <label class="item item-input cust_input" style="background:none;">
+          
+          <div class="input-label">
+          <i class="icon ion-ios-telephone-outline placeholder-icon"></i> Email
+          </div>
+          <input ng-if="field_required=='false'" type="email" name="email" ng-model="user.email"  ng-pattern="/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/" >
+          <input ng-if="field_required=='true'" type="email" name="email" ng-model="user.email"  ng-pattern="/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/" required >
+          <i class="ion-ios-arrow-right" style="position:absolute; color:#424242; right:10px; top:25%;"></i>
+          
+          </label>
+          
+        </div>
+        
+         <div class="col txt_cst">
+         <div class="form-errors"  
+               ng-show="regForm.phoneNumber.$error && showValidationMessages"
+               ng-messages="regForm.phoneNumber.$error"
+               ng-messages-include="templates/form-errors.html">
+        	</div>
+          <label class="item item-input cust_input" style="background:none;">
+          
+          <div class="input-label">
+          <i class="icon ion-ios-telephone-outline placeholder-icon"></i> Phone 
+          </div>
+          <input ng-if="field_required=='false'" type="tel" name="phoneNumber" ng-model="user.phoneNumber" ng-minlength="9" ng-maxlength="14">
+          <input ng-if="field_required=='true'" type="tel" name="phoneNumber" ng-model="user.phoneNumber" ng-minlength="9" ng-maxlength="14" required  >
+          <i class="ion-ios-arrow-right" style="position:absolute; color:#424242; right:10px; top:25%;"></i>
+          
+          </label>
+          
+        </div>
+        
+         <div class="col">
+            <div>
+            	<div class="form-errors"  
+                   ng-show="regForm.gender.$error && showValidationMessages"
+                   ng-messages="regForm.gender.$error"
+                   ng-messages-include="templates/gender-errors.html">
+                </div>
+                <label class="item item-select cust_input" style="background:none; padding:0;">
+                <div class="input-label">
+                  <i class="icon ionicons ion-transgender placeholder-icon"></i>Gender
+                  <br/><small style="font-size:12px; color:#eee;">To get exact lunch matcher</small>
+                </div>
+                <select style="background-color:transparent; padding-top:12px;"  ng-init="user.gender = user.gender || genders[0].value" name="gender" ng-model="user.gender" ng-options="gender.value as gender.name for gender in genders" required>
+                  
+                </select>
+                <!--<select ng-if="field_required=='true'" style="background-color:transparent; padding-top:12px;"  ng-init="user.gender = user.gender || genders[0].value" name="gender" ng-model="user.gender" ng-options="gender.value as gender.name for gender in genders" required >
+                  
+                </select>-->
+               </label>
+              </div>
+         </div>  
+            
+        <div class="list cus_lgn">
+        	  <label class="col">
+                <div class="col padg_0">
+                <div class=" lbl_border">
+                <h6 class="input-labe mg0">PREFERENCES</h6>
+                </div>
+                </div>
+              </label>
+          </div>
+          
+          <div class="col">
+            <div class="item item-input item-select cust_input" style="background:none;">
+                <div class="input-label">
+                  Gender to exclude
+                </div>
+                <select style="background-color:transparent;"  ng-init="user.excludeGender = user.excludeGender || genders[1].value" name="excludeGender" ng-model="user.excludeGender" ng-options="gender.value as gender.name for gender in excgenders">
+                  
+                </select>
+              </div>
+             </div>
+          
+          <div class="col">
+            <div class="item item-input cust_input" style="background:none;">
+                <div class="input-label">
+                  Exclude previous matches
+                </div>
+                <div class="col">
+                <label class="toggle toggle-energized cust_tngl">
+                 <input type="checkbox" ng-model="user.excludePreviousMatches" ng-true-value="'Y'" ng-false-value="'N'">
+                 <div class="track">
+                   <div class="handle"></div>
+                 </div>
+                </label>
+                </div>
+              </div>
+             </div>
+
+          
+            <div class="col cust_flex">
+                <div class="item item-input cust_input" style="background:none;">
+                    <div class="input-label">
+                    Daily reminder time&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label class="toggle toggle-energized">
+                     <input type="checkbox" ng-model="user.get_notification" ng-true-value="'1'" ng-false-value="'0'" ng-change="toggleTime()" >
+                     <div class="track">
+                       <div class="handle"></div>
+                     </div>
+                    
+                    </label>
+                      
+                    
+                    </div>
+                    <div ng-show="showNotficTime">
+                     <input type="text"  name="notificationTime" ng-model="user.notificationTime" class="notifictime"  id="notificationTime" /><i class="ion-ios-arrow-right" style="position:absolute; color:#424242; right:10px; top:25%;"></i>
+                     </div>
+                   
+                </div>
+            </div>        
+        	<div class="list cus_lgn">
+        	  <label class="col">
+                <div class="col padg_0">
+                <div class=" lbl_border">
+                <h6 class="input-labe mg0">COMPANIES TO EXCLUDE</h6>
+                </div>
+                </div>
+              </label>
+            </div>
+            
+            <div class="list col">
+            <div class="item item-input cust_search">
+              <input type="text" placeholder="Search....." ng-model="search" ng-enter="searchCompany(search)">
+             <span style="float:right;width:20%;text-align: right;" ng-click="searchCompany(search)"> <i class="icon ion-ios-search placeholder-icon" ></i></span>
+            </div>
+            </div> 
+            
+          <div class="list col srch_list" ng-repeat="company in savedCompanies" item-text-wrap>
+          <div class="item border0 item-radio" style="background-color:transparent;" >
+          <input type="radio" checked="checked" value="go" name="group">
+          <div class="item-content cust_srch_lst item-text-wrap">
+            {{company.name}}
+          </div>
+         <span style="float:right;width:20%;text-align:right;"  ng-click="removeCompany(company.id)">
+          <i class="close_icon ion-ios-close-empty"></i>
+          </span>
+         </div> 
+         </div>   
+      </div>
+      
+  </ion-content>
+ </form>

@@ -1,0 +1,111 @@
+
+<ion-header-bar align-title="left" class="bar-positive cus_header">
+  <div class="buttons">
+    <button class="button button-icon button-clear ion-navicon" ng-click="doSomething()" menu-toggle="left"></button>
+  </div>
+  <h1 class="title">SCORE AND POINTS</h1>
+  <div class="buttons">
+  </div>
+</ion-header-bar>
+<ion-content class="cust_innr">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+	<div class="row score_wp">
+    <div class="col-50 padg_0">
+    <div class="pull-center"><label class="labl_text">YOUR SCORE</label></div>
+    <div class="pull-center"><label class="count_stars">{{total_point|number}}<span>points</span></label></div>
+    </div>
+    <div class="col-50 padg_0">
+    <div class="col-100 pull-right"><button ng-click="go('/app/buypoints')" class="button btn_credit">Purchase Credits</button></div>
+    <div class="col-100 pull-right"><a href="http://www.lunchmatcher.com/cms/tutorials" class="tutorial-lnk read-details">Read more details</a></div>
+    </div>
+    </div>
+    
+    <div class="score_list">
+    <div class="lst_itm list">
+     	 <div ng-repeat="point in points">
+            <a href="javascript:void(0);" class="item item-icon-left cust_item item-icon-right">
+            <div ng-switch on="point.point_id">
+                <div ng-switch-when="1">
+                   <i class="icon icon_register">R</i>
+                   <span class="wrapping-list point-title">{{point.title}}</span><br>
+                   <span class="date_lbl">On {{point.action_date}}</span>
+                   <i class="icon pnt_count">{{point.points|number}} <span>points</span></i>
+                </div>
+                <div ng-switch-when="2">
+                    <i class="icon icon_img point_picture"><img ng-src="{{point.picture_url != null ? point.picture_url : imageNotAvail}}"></i>
+                   <span class="wrapping-list point-title">{{point.title}}</span><br>
+                   <span class="date_lbl">On {{point.action_date}}</span>
+                   <i class="icon pnt_count">{{point.points|number}} <span>points</span></i>
+                </div>
+                <div ng-switch-when="3">
+                   <i class="icon icon_img point_picture"><img ng-src="{{point.picture_url != null ? point.picture_url : imageNotAvail}}"></i>
+                   <span class="wrapping-list point-title">{{point.title}}</span><br>
+                   <span class="date_lbl">On {{point.action_date}}</span>
+                   <i class="icon pnt_count">{{point.points|number}} <span>points</span></i>
+                </div>
+               
+                <div ng-switch-when="4">
+                   <i class="icon icon_img point_picture"><img ng-src="{{point.picture_url != null ? point.picture_url : imageNotAvail}}"></i>
+                   <span class="wrapping-list point-title">{{point.title}}</span><br>
+                   <span class="date_lbl">On {{point.action_date}}</span>
+                   <i class="icon pnt_count">{{point.points|number}} <span>points</span></i>
+                </div>
+                <div ng-switch-when="5">
+                   <i class="icon icon_img point_picture"><img ng-src="{{point.picture_url != null ? point.picture_url : imageNotAvail}}"></i>
+                   <span class="wrapping-list point-title">{{point.title}}</span><br>
+                   <span class="date_lbl">On {{point.action_date | date:'MM-dd-yyyy'}}</span>
+                   <i class="icon pnt_count">{{point.points|number}} <span>points</span></i>
+                </div>
+                <div ng-switch-when="6">
+                   <i class="icon icon_below_rate ion-ios-star-half"></i>
+                   <span class="wrapping-list point-title">{{point.title}}</span><br>
+                   <span class="date_lbl">On {{point.action_date}}</span>
+                   <i class="icon pnt_count">{{point.points|number}} <span>points</span></i>
+                </div>
+                <div ng-switch-when="7">
+                   <i class="icon icon_availability">A</i>
+                   <span class="wrapping-list point-title">{{point.title}}</span><br>
+                   <span class="date_lbl">On {{point.action_date}}</span>
+                   <i class="icon pnt_count">{{point.points|number}} <span>points</span></i>
+                </div>
+                <div ng-switch-when="8">
+                   <i class="icon icon_above_rate ion-star"></i>
+                   <span class="wrapping-list point-title">{{point.title}}</span><br>
+                   <span class="date_lbl">On {{point.action_date | date}}</span>
+                   <i class="icon pnt_count">{{point.points|number}} <span>points</span></i>
+                </div>
+                <div ng-switch-when="9">
+                   <i class="icon icon_share_post ion-android-share-alt"></i>
+                   <span class="wrapping-list point-title">{{point.title}}</span><br>
+                   <span class="date_lbl">On {{point.action_date}}</span>
+                   <i class="icon pnt_count">{{point.points|number}} <span>points</span></i>
+                </div>
+                <div ng-switch-when="11">
+                   <i class="icon icon_share_post ion-android-share-alt"></i>
+                   <span class="wrapping-list point-title">{{point.title}}</span><br>
+                   <span class="date_lbl">On {{point.action_date}}</span>
+                   <i class="icon pnt_count">{{point.points|number}} <span>points</span></i>
+                </div>
+                <div ng-switch-when="12">
+                   <i class="icon icon_share_post ion-android-share-alt"></i>
+                   <span class="wrapping-list point-title">{{point.title}}</span><br>
+                   <span class="date_lbl">On {{point.action_date}}</span>
+                   <i class="icon pnt_count">{{point.points|number}} <span>points</span></i>
+                </div>
+                <div ng-switch-when="10">
+                   <i class="icon icon_purchase">P</i>
+                   <span class="wrapping-list point-title">{{point.title}}</span><br>
+                   <span class="date_lbl">On {{point.action_date}}</span>
+                   <i class="icon pnt_count">{{point.points|number}} <span>points</span></i>
+                </div>
+            </div>
+            </a>
+    	</div>
+   
+    </div>
+    
+    
+    
+    </div>
+</ion-content>
+

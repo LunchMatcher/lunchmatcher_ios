@@ -1,0 +1,42 @@
+
+<ion-header-bar align-title="left" class="bar-positive cus_header">
+  <div class="buttons">
+    <button class="button button-icon button-clear ion-navicon" ng-click="doSomething()" menu-toggle="left"></button>
+  </div>
+  <h1 class="title">MATCH HISTORY</h1>
+  <div class="buttons">
+  
+  </div>
+</ion-header-bar>
+<ion-content class="cust_innr " ng-class="{back_none: matchHistory.length}">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <div class="content padding cutom_profile">
+      <p class="no_matches" ng-show="!matchHistory.length">{{NoMatchtext}}</p>
+    </div>
+    <div class="score_list" ng-class="{back_none: !matchHistory.length}">
+    <div class="lst_itm list" ng-if="matchHistory.length">    
+    <a href="#app/profilereview/{{match.log_id}}/{{match.matchid}}" class="item item-avatar cust_avatar row" ng-repeat="match in matchHistory">
+    <img class="cust_tb" ng-src="{{match.picture_url!= null && match.picture_url || imageNotAvail}}">
+    <div class="col-50">
+    <h2>{{match.formatted_name}}</h2>
+    <p class="color_orange">{{match.headline}}</p>
+    <p>{{match.company}}</p>
+    </div>
+    <div class="col-50">
+    <p class="labl_date">{{match.matchdate}}</p><br>
+    <p>
+    <div class="star_lst">
+    <i class="ion-ios-star {{i <= match.rating_val && 'color_orange' || 'color_gray'}}"  data-ng-repeat="i in [1,2,3,4,5]"></i>
+    </div>
+    </p>
+    </div>
+    </a>
+    
+    
+    </div>
+    
+    
+    
+    </div>
+</ion-content>
+
